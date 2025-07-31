@@ -126,19 +126,4 @@ Edit
 
 ---
 
-Let me know if you'd like me to:
-- Add **badge icons** (e.g., Python version, license, etc.)
-- Write a sample `requirements.txt`
-- Include **Streamlit UI instructions**
-- Help with deployment (Docker, Hugging Face Spaces, etc.)
 
-Just say the word!
-
-
-
-
-
-
-
-
-Ask ChatGPT
