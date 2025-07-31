@@ -1,0 +1,238 @@
+chunk 0 : Hey everyone, I hope you all are safe
+
+and doing good.
+
+chunk 1 : So let me ask you
+
+something honestly. Have you ever
+
+thought AI is for techies? I don't know
+
+coding so I cannot go into this field or
+
+what if like I'm not so smart. It's too
+
+late to start or I'm not smart enough. I'm scared I'll be left behind. So these
+
+kind of thoughts are not real you. It
+
+these are just fear and fear goes away
+
+when you take action with right
+
+guidance. We know that AI is the biggest
+
+revolution of our generation and in this
+
+revolution you have two choices. You can
+
+either be an observer or a builder. AI will definitely replace we know that
+
+AI has already replaced so many jobs and
+
+it will definitely replace those people
+
+who don't adapt AI or who don't upgrade
+
+themselves right now in future
+
+definitely those people will be replaced
+
+by AI. We know this thing.
+
+chunk 2 : So now you
+
+have only one choice. You have to be a
+
+builder. Learn AI build something. You
+
+cannot be just and sit and be an
+
+observer. Yes.
+
+chunk 3 : And let me tell you
+
+something honestly. You don't have to be
+
+a genius. You don't have to be expert in
+
+Python to start learning to go into this
+
+field AI field. Yes, it's true.
+
+chunk 4 : You just
+
+need right mindset, your dedication, a
+
+right mentor and step-by-step guidance. That's it.
+
+chunk 5 : And you can easily start and
+
+not just start, you can build something
+
+also. That's why I have designed a
+
+course generative AI for especially for
+
+beginners from basics to chatbot
+
+creation. So even if you don't know
+
+anything, if you are a simple, you don't
+
+know anything about AI, you don't you
+
+don't even know what is AI, it's okay. You can still go for this course. I'll
+
+be covering everything here like I'll
+
+tell you basics. What is AI first? What
+
+is machine learning? What is deep
+
+learning? What are neural networks? History of AI and then what is
+
+generative AI, chart GPT, prompt
+
+engineering and the key concept how GPT
+
+generate these responsive uh responses. What are LLMs? How the things are
+
+working behind the scene? Tokenization,
+
+embedding, rag, fine-tuning. I'll tell you basics of everything. Obviously like in machine learning, I'll
+
+not go into that much deep. I'll tell
+
+you like everything about machine
+
+learning. That is a different subject. But yeah, basics of each thing I'll tell
+
+you because generative AI is subset of
+
+deep learning. Deep learning is subset
+
+of machine learning. Machine learning is
+
+subset of AI. So we cannot directly
+
+start generative AI. You have to
+
+understand to somewhat basics of what
+
+are these things a IM LDL neural network
+
+and all and then you can enter into
+
+generative field. So I have discussed
+
+everything here.
+
+chunk 6 : Okay. And then at the
+
+last we are going to build our own
+
+chatboard also. Okay. A mini project a
+
+chatboard. So it's like at the end you
+
+have some practical knowledge also. We'll you will be applying your own
+
+knowledge. So we'll be coding here in
+
+Python language. So you have a basic
+
+understanding of Python. How to write
+
+code in Python. That's enough. You don't
+
+have to be very good in Python language. You will understand everything. Don't
+
+worry.
+
+chunk 7 : Right? But at least you have like
+
+basic knowledge of Python. That's it.
+
+chunk 8 : Right? And you will get here like my
+
+detailed notes as well. What you can
+
+download my detailed notes that PDF of
+
+the program also. I'll give you the chat
+
+GPT program. Okay? And quizzes also. And
+
+I'll give you a glimpse of future AI
+
+also like AGI, ASI. That's really scary. So basically this is a complete journey
+
+from beginner to builder. And then
+
+you'll have your own chatbot also. See
+
+every company from Google to the
+
+startups they are integrating AI. Recruiters wants you to understand
+
+generative AI tools and use them
+
+effectively. Okay. If you are going for
+
+any like any job or interview kind of
+
+thing there also if you have this
+
+knowledge, you have built some projects
+
+on generative AI then this kind of thing
+
+will give you an edge over other
+
+candidates as well. So if you are a
+
+student, this is your chance to get
+
+ahead of your batch. And this course is
+
+generally around 2,000 but right now
+
+because we have already we have just
+
+launched it so you'll get it just 599
+
+rupees. And one more coupon code you can
+
+apply AI 10. Although this coupon code
+
+was just for 500 student but uh this has
+
+expired but students messaged me and
+
+they demanded that please extend this
+
+coupon code. So I we have just extended
+
+for few days just for first month of the
+
+launch of this course. So only few I
+
+think days are left. So still we have again activated this
+
+coupon code AI 10. You can apply this
+
+and you will get extra 10% discount. But
+
+this coupon code is valid for just few
+
+days. So the only thing standing between
+
+you and your first AI project is the
+
+decision you make right now. Don't let
+
+this moment pass. Go to the description
+
+box, click on the link and enroll now. So hopefully I'll see you in the course. Till then, bye-bye. A care.
+

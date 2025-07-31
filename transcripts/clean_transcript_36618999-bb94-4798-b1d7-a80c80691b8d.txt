@@ -1,0 +1,415 @@
+So hi everyone today we have a special
+
+guest on our channel we have Shalini
+
+with us. So Shallini would you like to
+
+introduce yourselves once? Uh hi hi
+
+everyone. Hi Ashish. So I'm Shallini
+
+currently in my fourth year. I'll be
+
+graduating in 10 days and I am currently
+
+interning at EPAM systems and it's been
+
+4 months since I'm interning there as a
+
+software engineer intern. So yeah that's
+
+it.
+
+Right. Right. Right. So like she
+
+mentioned she has cracked EPAM and we'll
+
+be getting to know her interview
+
+experience, her placement journey, her
+
+preparation journey and everything in
+
+between. So Charini, would you like to
+
+start us off with your interview
+
+experience like what all happened? How
+
+did it go? Yeah, so I actually had four
+
+rounds of inter uh four rounds total. So
+
+first round was the OA where I got uh
+
+two coding questions and second section
+
+was uh on the core section core computer
+
+science fundamentals on OS oops and DBMS
+
+and in the first uh uh section we I had
+
+two coding questions based on link list
+
+and arrays uh sliding window type
+
+question and uh we I think we had an
+
+optional question as well I don't
+
+remember it well so I solved the first
+
+two questions in the coding uh section
+
+and in the uh core section I solved
+
+almost every question. So after that uh
+
+I think 200 people gave the exam and
+
+maybe 70 people got 70 or 80 people got
+
+shortlisted from that and after that we
+
+had a group discussion round we had been
+
+asked on the topic like quality testing
+
+assurance and then uh from that uh again
+
+it was a short um some people got
+
+shortlisted from that um uh group
+
+discussion round and then after that we
+
+had a technical round and in the
+
+technical round I have been asked with
+
+coding questions. Again uh it was mainly
+
+based on link lists and the graphs and
+
+also
+
+um it was mainly based on the resume on
+
+my projects on my skills. So I had uh I
+
+had participated in the JP Morgan's code
+
+for good challenge. So he I mentioned it
+
+in my resume. So he mainly asked about
+
+what I did in that uh in that challenge.
+
+So I mainly uh worked on the front end
+
+part of um that uh in that challenge. So
+
+he yeah so he asked about the JavaScript
+
+fundamentals and the react fundamentals
+
+what I did even my projects were based
+
+on the monst. So he asked about the
+
+React and the JavaScript fundamentals
+
+and he asked me to code the uh coding
+
+questions also in the JavaScript and the
+
+coding questions were graph and link
+
+list based right? So he asked me to code
+
+it in the
+
+JavaScript. Uh and then it was a short
+
+listing round. Um after that uh we had a
+
+HR round. It was about 20 to 25 minutes.
+
+Yeah. She asked me the very bas basic
+
+questions like strengths and weaknesses.
+
+Where will you see in the five years all
+
+these generalized questions? That's it.
+
+Mhm. All right. To up first online
+
+assessment and then the group
+
+discussion, technical interview and then
+
+HR interview, right? Yeah. And all
+
+rounds were eliminator. Yeah. All rounds
+
+were eliminator. Even in the HR round
+
+some people got eliminated. No. But
+
+rejected. All right.
+
+The difficult
+
+part difficult part was the O round. The
+
+interviews were good. I mean if you have
+
+the good knowledge you can explain it
+
+well but the O round was the main
+
+eliminating part because some people
+
+solved the questions but they did not
+
+get shortlisted. So maybe it was time
+
+based also and accuracy based also.
+
+And let's
+
+say medium
+
+medium medium medium hard not hard but
+
+medium
+
+lead and technical interview like you
+
+mentioned
+
+graphic question was uh graph question
+
+was standard graph questions not the
+
+yeah
+
+And those were a bit
+
+hard. Yeah. Right. Right. We can say DA
+
+important part of clearing the
+
+interviews. How did you prepare
+
+DSA? Yeah. So for
+
+DSA geeks for geeks standard
+
+questions topics like easy, medium, hard
+
+and geeks for geeks array stacks, link
+
+lists, cues, graphs. I went till graphs
+
+um trees and
+
+graphs and
+
+um A to Z sheet solve but not completely
+
+hard questions I solved.
+
+hard questions I needed them to
+
+understand the concept so I solved the
+
+hard as well. So yeah that's it and for
+
+the projects
+
+manp it was mainly based on the
+
+manag I made some self projects for the
+
+practice and again in the third year I
+
+revised those concepts and
+
+project DSA was from geeks for geeks and
+
+driver sheet and
+
+[Music]
+
+rather than making side project it's
+
+better you go on a hackathon and then do
+
+there right all right so unique systems
+
+that they have a GD round companies
+
+details. So
+
+round quality assurance and testing. So
+
+I guess 50 10 people were there in each
+
+uh group. So okay uh the interviewer was
+
+focusing on each and every individual.
+
+So he was asking about each quality um
+
+uh quality concepts, testing concepts.
+
+Actually we didn't have the much
+
+knowledge on those topics because we
+
+didn't come from that background.
+
+So weird because usually I've seen to
+
+non- tech topics. First time I've seen
+
+this quality assurance or topic. It's
+
+new to me also. Huh. Yeah. But still we
+
+had studied some parts like blackbox
+
+testing white box
+
+testing then we elaborated on that. So
+
+he was uh seeing key uh each individual
+
+was participating or not if he was uh
+
+actually coming out if he's speaking or
+
+not even if he doesn't know is he
+
+speaking or so he was focusing on that.
+
+That's it. So it was more of a test of
+
+your communication and how well you're
+
+able to communicate in a group ha rather
+
+than the knowledge you hold. Right.
+
+Yeah. Because if it was a generalized
+
+topic then we can uh expand what we know
+
+I mean we can cover many topics but
+
+since it was a topic which we did didn't
+
+know at least we need to
+
+speak
+
+correct right right all right
+
+so explain interview process and you
+
+know your preparation also so on a final
+
+note to all of the people who are
+
+watching this video let's say they also
+
+want to crack a like EPAM what advice
+
+would you like to give them? So for the
+
+advice I would say start early start
+
+early DSA mainly the DSA because when we
+
+go when you go to second second year or
+
+third year second year
+
+internship goes till graphs also. So you
+
+should start uh from the first year
+
+onwards. Exploration is really important
+
+but along with exploring every other
+
+thing you should start DSA early and
+
+once you I mean um are comfortable with
+
+DSA start exploring other texts like
+
+monster machine learning AI lo etc and
+
+make the project self projects not only
+
+watch the videos don't watch the videos
+
+for I mean that watching loop first
+
+so yeah so practice it and you'll
+
+explore it on your own because interest
+
+until we don't start we don't know how
+
+to I mean until we don't start start
+
+making projects and then dive into the
+
+good projects like mini projects or any
+
+other projects with your friends yeah
+
+and even in DSA uh you uh when you solve
+
+the questions so um explore the answers
+
+of others in the discussion sections
+
+solution we get constrainted to that
+
+only single solution if we focus on
+
+that new
+
+concept so that advice I would like to
+
+give right right and that's some
+
+wonderful advice right there okay so I
+
+think that covers pretty much everything
+
+about Charlini's journey to crack me pam
+
+and if anyone of you still have any
+
+doubt I'll give her LinkedIn in the
+
+description you guys can follow her from
+
+there can connect with her from there.
+
+So yeah, thanks a lot Shalini for coming
+
+on the channel and sharing your journey.
+
+I hope this helps a lot of students.
+
+Yeah, thank you. Thank you Ashish. Thank
+
+you everyone.

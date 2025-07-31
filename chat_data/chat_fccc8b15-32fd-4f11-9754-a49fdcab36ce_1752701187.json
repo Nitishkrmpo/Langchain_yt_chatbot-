@@ -1,0 +1,32 @@
+{
+  "video_url": "https://www.youtube.com/watch?v=G4ti1ZpcmDk",
+  "session_id": "fccc8b15-32fd-4f11-9754-a49fdcab36ce",
+  "language": "English",
+  "conversation": [
+    {
+      "question": "what is topic of discussion?",
+      "answer": "The topic of discussion appears to be an investigation into an aircraft accident or incident, specifically the crash of flight 171, and determining whether it was caused by a hardware problem or human intentional action.",
+      "context": []
+    },
+    {
+      "question": "give me fact and investigation result ??",
+      "answer": "Here are some facts mentioned:\n\n* More than 60 engine failure reports have been received in the last 5 years.\n* 11 \"Mayday\" distress calls were made by pilots due to engine failure.\n* A preliminary report was released after 1 month, but it had many unanswered questions.\n* The Ministry of Civil Aviation held a briefing but refused to take questions.\n\nAs for the investigation result, it is not explicitly stated in the context, but it seems that the investigation is still ongoing and many questions remain unanswered.",
+      "context": []
+    },
+    {
+      "question": "who are the captains ?",
+      "answer": "The captains mentioned are Captain Patrick Sortenheimer and co-pilot Andreas Lubitz, and also Captain Zahiri.",
+      "context": []
+    },
+    {
+      "question": "are they indians ??",
+      "answer": "I don't know. The context doesn't mention their nationality.",
+      "context": []
+    },
+    {
+      "question": "how many people died ?",
+      "answer": "I don't know. The context mentions that it took 10 days to announce the death toll, but the actual number of deaths is not specified.",
+      "context": []
+    }
+  ]
+}

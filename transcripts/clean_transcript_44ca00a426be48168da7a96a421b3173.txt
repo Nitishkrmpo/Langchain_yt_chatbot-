@@ -1,0 +1,1525 @@
+I think by now you must have heard the news
+
+that how DRDO and IIT Delhi
+
+together have developed Quantum Secure Communication System,
+
+using photons, the next generation
+
+technology as we call it and
+
+when I used to make these lectures, I myself used to think that I should know that
+
+this technology has not yet
+
+come to India, will people learn about it and
+
+watch my videos or not but now it seems that
+
+brother, those
+
+videos which I used to make for lectures will become very important for you
+
+and today I am going to explain this news also in great
+
+depth in as
+
+simple a language as possible but
+
+I will not over simplify anything.
+
+But I will try my best to
+
+explain it in the best possible way.
+
+First of all, this quantum secure communication
+
+system or what have DRD and IIT Delhi
+
+done together?  If I
+
+want to tell you in short, what DRD and IT Delhi
+
+did together that 100 Km from Prayagraj to Vindhyachal.
+
+Information was transferred using light, rather than photos, over a distance of 1000 ohms without the use of fibre optics.
+
+And how secure can this thing be?
+
+What could be its applications?
+
+And everyone is a
+
+little bit scared of this word quantum.  I used to think so earlier too.
+
+Today I will try to simplify it
+
+and try to explain it.  The
+
+secret behind this.  Come on, let's unlock it together.
+
+First of all,
+
+I have used the word secure too many times here.
+
+So the first thing is that
+
+in our digital world, all the things are not
+
+locked.  Are digitally locked.  Be it the
+
+banking system, bank details or
+
+your secret messages.  And
+
+this digital lock is put to
+
+protect your information
+
+, the word used for this is
+
+encryption.  This word is going to be very useful for us today.
+
+So I thought I should
+
+note it down here.
+
+You will remember this next time too.  The digital lock
+
+by which your information is protected is
+
+called encryption.   There are
+
+many types of encryption systems.  If I
+
+want to explain it in simple language then there is
+
+some mathematical problem behind this.  So,
+
+those people who used to say where is the use of maths?
+
+Look brother, your information is secured.
+
+Because of these math problems.  That means if
+
+you want to break an encryption system,
+
+you have to solve a math puzzle.
+
+And these mathematical puzzles
+
+are very difficult to solve.  Hey if it was easy then there would be an
+
+encryption system for something,
+
+right?  It is so very difficult.   It is
+
+so difficult that even our
+
+classical computers, even supercomputers, are
+
+not able to break it.   For example, if I
+
+want to tell you one thing, there is an RSA method.  The
+
+RSA method means that we can
+
+multiply two numbers
+
+but factorization, which is the opposite process, is
+
+very difficult.  If
+
+I write a number here in front of you,
+
+any 100 digit long number, it will take years for
+
+our normal computer to find out its factors.  And if I
+
+keep increasing the digits like this and
+
+I write a number 200 digits long
+
+and ask you to find out its factors.
+
+It is an extremely difficult
+
+task.  Even if I give you all the computer scientists
+
+of the world, even then if 200 digit,
+
+300 digit, such huge numbers are
+
+involved, then there are just a few
+
+things which if you remember and understand, then in the
+
+future whenever you see such information, you will be
+
+able to decode it yourself.  So this
+
+is a quantum computer.  But as soon as we come to the game,
+
+till now we believed that all the
+
+mathematical puzzles are unbreakable.
+
+These encryption systems can never end.
+
+It can never be broken.
+
+And that's where this brother quantum computer comes into the game
+
+and
+
+how is such estimation done?  It
+
+is about to happen.  Understand this quantum computer like this,
+
+it has a master key.  It
+
+can open the lock of any door.
+
+Can break any encryption system.
+
+This problem which we thought was almost
+
+impossible to solve, if we
+
+fix a particular time
+
+in which this problem has to be solved then
+
+classical computers would not be able to do it.  This
+
+brother will eat all that stuff.  It has
+
+a master key.  You might think that
+
+all encryption systems would be broken.
+
+Because
+
+maths is used here and the laws of physics come into play here.
+
+It is based on the laws of physics.  There is
+
+no mathematics here.  This is different in this.
+
+Ok?  So the First World War happened
+
+because of chemistry.  The second world war
+
+happened because of physics.  The third world
+
+war will happen because of mathematics.
+
+Because when the encryption systems start getting broken,
+
+this quantum secure communication system
+
+which I am going to describe now, brother,
+
+all its encryption systems can be
+
+broken or we will have to take help from that country, which will
+
+not be done by India, now
+
+India is becoming the leader.  Now, those who have
+
+not made the quantum
+
+computer and do not have the technology, will have to
+
+take services from now on, for example,
+
+from USA, China, even from India, for
+
+quantum secure
+
+system, meaning such a system which
+
+cannot be broken for the time being, i.e. a quantum
+
+computer will break the old ones
+
+but these
+
+encryption systems that have quantum computers, it is impossible to break it. I am
+
+using the word impossible, let me tell you
+
+why, why is it so secure, secure,
+
+I keep calling it secure, secure, again and again.
+
+But what is that like?  Because it
+
+is based on the rules of quantum mechanics.
+
+You must have heard many properties in quantum mechanics.
+
+Like
+
+we have to understand three properties here.  One is that
+
+we have superposition so that we
+
+can go into it in more depth.  Isn't it?
+
+I will tell you this news in so much detail
+
+that brother, you can go and explain it to anyone
+
+and anyone can ask you anything
+
+about it.  You will be able to tell.  There is a
+
+superposition, there is an entanglement.
+
+Mainly these are the two things and we
+
+also add quantum interference.  If we
+
+understand all these things then it means
+
+that brother, we have understood the complete news.
+
+What did we use first?
+
+Quantum Secure Communication System was developed
+
+jointly by DRD and IIT Delhi.  What did he do?
+
+Used the photos.  Now I haven't seen the photos
+
+till today.  Yes.  Our
+
+normal computer, on which I am recording right now, is
+
+all
+
+based on the language of one and zero.  Meaning, understand it like this, there are
+
+small transistors or switches installed inside it.
+
+Either
+
+current will be flowing through it or it will not be flowing.  Either
+
+it will be on or it will be off.  Understand it like this.
+
+Ok?  Similarly, if there are two switches then
+
+how many states and how many possibilities can I
+
+explore?  To four possibilities.
+
+A 0 1 0 1 1 If I have three switches like this then
+
+I will be able to explore eight possibilities.  You
+
+can try it yourself, is
+
+n't it like this?  So something to the power of 2 is there.
+
+Whatever number of off switches you have.
+
+For example, we can also call it bits.
+
+Whatever number of bits
+
+you have, whatever its length is,
+
+put it here.  If the length is three then 2 to the
+
+power of 3 becomes eight possibilities.  But the
+
+biggest problem with classical computers was
+
+that classical computers were
+
+based on sequential programming.  What I
+
+mean to say is that they will explore one possibility,
+
+then they will
+
+explore the second one, then they will explore the third one, yes we
+
+can fast up this process.  Yes
+
+absolutely but think for yourself when
+
+number 2 becomes 30 in power.  Sorry 2 to the
+
+power of 20 represents greater than 1
+
+million possibility.
+
+Using just 30 switches I
+
+can explore so many possibilities.   It
+
+means that whenever you
+
+tell your computer any particular thing, zero zero, it will do
+
+this work and will write 'A'
+
+on your screen.  If you give
+
+one zero to your computer, it will write B
+
+on your screen.  Up to so on can be used like this.
+
+We will not go into those technicalities.
+
+We are also interested in cryptography.  I want to
+
+know this word.  So
+
+how do we get the output from the computer
+
+?  How is the input coming?  Understand now that
+
+you don't even know what a computer is.
+
+This is a black box.  That’s it.  Ok
+
+?  There is a black box.  As soon as we
+
+give it instructions, it will give
+
+some output according to our instructions.  If we give the
+
+instruction zero zero then it will
+
+give some output.  Like that if I only have
+
+30 sorry only 20 switches.
+
+Brother, think about it.  More than 1 million,
+
+possibility 1 million different outcomes I
+
+can work out here.  Did you understand from this
+
+?  That's why let's come back to photon and
+
+quantum.  What happens in a quantum?
+
+I told you about this.
+
+what happens here?  There is sequential programming.
+
+Yes, we can do it fast.   You
+
+can definitely do it.  Sequential
+
+processing will process whatever happens one by one.
+
+Ok?  Just what happens here in quantum
+
+?  Parallel
+
+processing takes place here.  I mean,
+
+what will he do?  Suppose there were 30 switches
+
+then the number would be greater than 1 billion.
+
+If there were 40 switches, see how fast the number is
+
+increasing.  Because this number,
+
+x to the power of 2, is what we call an exponential number.
+
+Their growth is very fast.
+
+Using just 30 switches we
+
+can explore 1 billion possibilities.
+
+But again we
+
+can make our computers faster.  But still there will be
+
+some limit as to how fast you
+
+can make it.  It will do it one by one, yes,
+
+in one second our computer can explore 1 billion such
+
+possibilities,
+
+still how much is 1 billion, nine to the power of 10,
+
+one trillion, 12 to the power of 10,
+
+suppose it has explored so many possibilities,
+
+suppose this quantum computer can
+
+explore so many properties, so many possibilities simultaneously, this is what the
+
+mind gets lost in and this is what I would like to
+
+explore further, that this photon, for the
+
+first time, now the time has come to link both the things.
+
+What will he do?  It can multiply
+
+9 by the power of 10 in 1 second but
+
+can do it only one by one.  If the number would have been like 10 to the power of
+
+90, then if I had 300
+
+bits, the number would have been 10 to the power of 90. Brother, there would
+
+not have been that many atoms of 10 to the power of 90
+
+in our universe.  This is such a big number.  Our
+
+computer would explode.  Combine all the computers.
+
+Reaching this number is an
+
+almost impossible task given a time
+
+frame.  come here.
+
+Bhai sahib I am not saying all this at once for one second.
+
+It can explore 90 possibilities to the power of 10 simultaneously.
+
+Yes,
+
+we have not made such efficient and good quantum computers yet, but we are not very
+
+far away either.  Bhai sahib, this achievement is
+
+very big.  Ok?  I hope you are
+
+able to understand a little bit.  But
+
+why Photon?  Because here we used,
+
+I used the word transistors.
+
+Read a little more about it,
+
+we also study it in 12th class.  Ok?
+
+About Transistors Gates.  But the photon
+
+has no polarization.  There is a word called
+
+polarization.
+
+Polarization means
+
+in which direction are its waves vibrating
+
+?  There can be two types of polarization.  One
+
+horizontal, one vertical.  But do you know
+
+what the problem is?  This is where quantum
+
+things come in.  Quantum means like
+
+what happens here?  The transistor is either
+
+in the on condition or in the off condition.  this is what
+
+happens.  But here the photon will have
+
+horizontal polarization.  I also
+
+want to use the same properties.  I am sure that
+
+I can replicate this.  I
+
+can make something like this.  I want those two
+
+possibilities, either this should happen or this should happen.
+
+I named zero and one myself.  He
+
+just became a place holder.  Zero and one.  0
+
+Instead of one you could have written yes no.  You
+
+could have written on off.  You could have written Rajan Veena.  Are you
+
+able to understand the meaning?
+
+Could write anything, anything.  The square was also broken.  Think about what
+
+I said.  But you could have written anything in
+
+its place.  Similarly, here the photos will have
+
+two states, either they will be
+
+vibrating horizontally, its
+
+waves will either be vibrating vertically.
+
+I just changed the symbol to zero state.
+
+Correct?  And here it was named One State.
+
+And if someday I write it like this,
+
+na s = alpha0 + beta1, I thought I should
+
+include some math.  I wo
+
+n’t do much.  Just one equation, nothing else.
+
+If we assume that we have
+
+written this equation in front of you, it
+
+means that it is representing the state of the
+
+system.
+
+State of system or this time I
+
+am talking about photon.
+
+What do you mean by saying this?  What does
+
+it mean to say photon?  I mean is the
+
+state of photon one or two?  This is where the
+
+rules of quantum come in.  They say unless you
+
+measure you won’t be able to tell.
+
+I can only tell you the probability,
+
+so when I do alpha square
+
+in my lectures, you will understand its technique,
+
+why do we do the square?  In simple terms
+
+alpha is the square probability that it will
+
+come in zero state.  Beta squared is the
+
+probability that it will land in one state.
+
+I don't know before or after my measurement and this is true randomness.  True
+
+Randomness: Even if you bring the zero state 1 lakh times,
+
+after measuring, you will still
+
+not be able to tell what is going to happen next, whether the
+
+zero state will come or the one state will
+
+come.  Well, I could have written it horizontally and
+
+vertically also.  HB is just the name, you can
+
+write anything.  If I have ever
+
+written this, I think you will know
+
+what I am trying to say.  If
+
+I ever write something like this then what
+
+I mean to say is that there is half probability
+
+or 50% chance that it will come in zero state
+
+and there is 50% chance that it will come in one state.
+
+Not before my measurement but
+
+I will be able to tell you.  Similarly here it could have been 75%.
+
+Depending on how we have
+
+captured that photon.  We have
+
+imprisoned him in such a way that
+
+we have increased his probability by 75%.  This
+
+work of increasing and decreasing the probability is called quantum
+
+interference.
+
+My quantum computer is exploring the 90 possibilities to the power of 10, but
+
+I need one correct answer out of them. So,
+
+this is
+
+a process in our quantum computer called quantum
+
+interference, which in simple language means
+
+increase the probability of your correct result and decrease those of the rest, the
+
+rest can also get an answer, means the answer for 3 * 5
+
+can also be 4, but the probability of getting 15 is
+
+higher.  That is why our
+
+quantum computers
+
+may not be able to replace our normal computers.
+
+Meaning I won’t do it at all.  Normally
+
+this is what we have.
+
+This quantum computer is good for some specific types of tasks.
+
+Because there is a possibility of getting wrong answer.
+
+But there is a very high probability of getting the correct answer.
+
+We call this
+
+quantum interference.  Increase the probability of getting it right.
+
+And this is the magic that
+
+quantum algorithms do, in which I keep
+
+making videos.  So do watch the lectures also.
+
+One property is quantum
+
+superposition.  What I just told you is that
+
+before the measurement it was in the zero state as well as in the one state.  After
+
+measuring I will know
+
+in which state it is.  So this
+
+means here I
+
+can explore only one possibility at a time.  Either that
+
+possibility will be either zero or
+
+one.  Same but here both
+
+possibilities can be explored.  And
+
+let me tell you how this power of 10 90
+
+can be explored simultaneously.  Now watch
+
+because the second thing that's going to come up here is this
+
+quantum entanglement.  Meaning, you
+
+take two particles and entangle them.  For
+
+example, hit him in simple language.
+
+By the way, this process related to quantum entanglement is
+
+very difficult.  But suppose
+
+you took two photons or two electrons
+
+and made them collide.  It is not necessary to
+
+use the photon as a qubit.  The word I
+
+can use here now is Qubit.   The
+
+word I am going to use here is bit.
+
+Bit means zero one.  Qubit means quantum
+
+bit.  He can live in zero as well as in one.  It is
+
+not necessary that you use photos.   You
+
+can also use the electron, the
+
+spin of the electron.  Either it spins up
+
+or it spins down.  Well, this
+
+analogy is not good.  But still.  Ok
+
+?  Because quantum spin
+
+cannot be visualized.  But
+
+why did I choose Photon?  Because this brother
+
+used photos and my personal
+
+favorite quantum technology is photonic
+
+quantum computing.  The error rate is
+
+very low.  I will tell you all those things.
+
+But if we come to quantum entanglement, then
+
+in simple language quantum entanglement is that two
+
+particles collide and become entangled.  If you
+
+experiment on one, it will have an
+
+impact on the other as well.  This means that if
+
+you take each quantum bit, its
+
+state can be zero one.  Horizontal
+
+Vertical.
+
+Zero One is just a name.  Like this, if
+
+you take two particles, the states will become
+
+0 0 1 1 0 1 1 so what is the difference between this and this
+
+?  Nothing.  There is no difference
+
+brother between classical and quantum.  The difference here is
+
+that these are going to be processed sequentially.
+
+And these possibilities are going to be
+
+processed simultaneously.  Four possibilities
+
+together and if I took the example of 200, sorry 300 300.
+
+So if I
+
+take 300 quantum bits and entangle them.  The
+
+first property is quantum
+
+superposition.  Secondly, I also entangled them with each other.
+
+So how much possibility will there be
+
+?  Almost 10 to the power 90 is being
+
+explored simultaneously.  But I
+
+want the result I want.  He
+
+will give this.  So these are the three properties
+
+which we had to understand and we understood them.
+
+That is all.  This is the whole magic.  Whatever is
+
+running inside any quantum computer,
+
+you must have seen the Kiskit language, there is
+
+a panel language, there is a Cirk
+
+language of Google, sorry if I am pronouncing
+
+Cirk wrong, if
+
+they call it Kirk, whatever it is, but what have they
+
+done behind this,
+
+they have kept any syntax, that means if I am
+
+writing some code in Kiskit language, then
+
+what am I actually doing,
+
+whatever syntax I have used, that syntax will be
+
+read by the transpiler, the
+
+transpiler of Kiskit language will read it
+
+and convert it into machine language.
+
+After converting it into machine language, we
+
+will tell the machine that brother is trying to say this
+
+and then it will perform a different task.
+
+How will the tasks be performed?  Some
+
+pulses are going to go away.  Try and understand this.  Are
+
+these qubits photons
+
+or electrons or are superconductors being
+
+used or topological qubits
+
+or trapped ions or what else are they
+
+?  There are neutral atoms.   The
+
+nucleus is used.
+
+Some pulses are sent to all of them.
+
+Pulses mean that some electric current is sent
+
+to manipulate it.
+
+According to the algorithm I have written,
+
+it is manipulated accordingly and then
+
+different tasks are performed.
+
+Like I just told you.
+
+But making a quantum computer that efficient is possible.
+
+We are not very far away yet.
+
+But at the moment we do
+
+not have enough power to break all the encryption systems.
+
+But such an encryption
+
+system can be created as
+
+mentioned here.  Let's move a little further.  So
+
+I told you about entanglement.
+
+And finally let's
+
+move on to quantum cryptography.  In simple
+
+terms, I thought that if I tell you then
+
+one thing will become clear that brother,
+
+this thing is really interesting.  And if I
+
+want to tell you a little bit about
+
+cryptography,
+
+what actually happens in cryptography.
+
+By the way I am talking about
+
+directly quantum cryptography.  Now
+
+people are even moving towards post quantum cryptography.  I mean first the mathematical
+
+problem which we mean it is a funny thing.
+
+Any quantum computer had to break a math problem, which meant that a math
+
+problem had to be solved, which classical
+
+computers were not able to do to break the encryption system.
+
+Then came the
+
+quantum computer which was based on the rules of physics.
+
+Then now we come to post
+
+quantum cryptography.  This is quantum
+
+cryptography which is based on the laws of physics, the
+
+laws of quantum physics.  And
+
+this post quantum cryptography is
+
+again mathematical problems which are
+
+considered to be such mathematical
+
+problems that most probably even our
+
+quantum computer will not be able to break it.
+
+Because once a quantum computer is made, it will
+
+break all encryption systems.
+
+Then we will
+
+have to create some algorithms and some encryption systems
+
+that can protect them from quantum computers.
+
+Otherwise, the one who made the quantum computer will
+
+destroy it. The
+
+quantum computers will make the encryption systems of the entire world
+
+clash with each other.
+
+Then what can we do to save ourselves
+
+if you don't want to use a quantum computer, then
+
+this post quantum cryptography will require the
+
+use of such an encryption system
+
+that even a quantum computer cannot break. We will
+
+explore a
+
+very interesting thing in the upcoming lectures. So mainly we will
+
+understand the distribution of this quantum,
+
+what actually happens, understand it like this that
+
+this is a factory and it makes
+
+quantum coin, quantum coin means it
+
+makes two entangled particles.  I have given a particle
+
+for example, here I have a
+
+friend Veena and here is Rajan.
+
+Ok?  These are two people.  Obviously they
+
+will be humans anyway.  But one coin went
+
+to Rajan and one has to go to Veena.
+
+But let's talk about me first.  I
+
+measured the coin that came to me and the first coin came to me was
+
+one.  It came on the second one.  Second, I did major,
+
+then came forest.  Third, I measured photon.
+
+Let us go from horizontal to vertical, if
+
+we go from horizontal polarization, horizontal
+
+polarization, then vertical, then horizontal,
+
+then horizontal, and keep doing it like this, if I
+
+call this one, this one, this 0 one one, then I
+
+have one key, now where will the second coin go, what are
+
+we
+
+transferring, what are we
+
+distributing, we are giving keys,
+
+I will have one key, the other one will have one key,
+
+then we will match it with the normal call
+
+and we will have a secure system
+
+and we do not even need to measure the entire key.
+
+Just keep watching.  We do
+
+n't need to tell the whole thing on the call.  If you
+
+match a few four digits, your
+
+work will be done and a secure system
+
+can be built.  So what are we transferring with
+
+light?  Password
+
+Password sharing is in progress.  The
+
+sharing work is currently in progress.  As soon as it is
+
+shared, one goes to him and one goes to me,
+
+then we can communicate.  So
+
+what will happen now?  Suppose a coin was going from here
+
+towards Veena and then an
+
+Eve or a hacker came there.  What did he do?
+
+From here he himself saw the photon and
+
+he saw that it is horizontal.  The next one he
+
+saw is vertical.  And what did he do?  As
+
+soon as the measurement is done.  As soon as
+
+he measured it, we had to send a total of 500 photos.
+
+It got 495.  I got 500.
+
+But this Eve saw five photons.   The
+
+hacker noticed this and sent some more
+
+quantum particles back here.  But for a
+
+second, if we assume that it has done the
+
+measurement on the quantum particle, then its state will become
+
+fixed and neither will it get collapsed nor will it
+
+function, meaning it is either
+
+in horizontal polarization or in vertical,
+
+but as soon as you measure it, it
+
+falls into one, so it has seen that,
+
+as soon as it sends any quantum
+
+particle here again and Veena measures it, then it is
+
+not necessary that it is the same as it was with
+
+me, can you understand, the first particle has come
+
+here.  Through this it measured
+
+horizontal.  When it
+
+sent another quantum particle here, it also
+
+measured it horizontally.  Well, it was a guess.   It
+
+was a coincidence.  Then he did another major.
+
+Here comes the vertical.  Here also there was vertical at
+
+number three, so there was a problem brother.  When
+
+Veena saw this after making her sequence, it was
+
+coming.  If only five photos were
+
+shared from Let Us, then what would have come here: 1 1 0 1 1
+
+?  0 0 1 0 0 What happens
+
+to entanglement due to Just Opposite Entanglement
+
+?  Whatever measurement you do on one particle, it will have an
+
+effect on the other as well.
+
+This was it, they are related to each
+
+other.  So we saw that everything was fine.
+
+But there is a problem with this part.
+
+His forest is also coming here.  Forest is coming here also.
+
+Should not have happened.  This means
+
+someone has interfered.  So we will
+
+start the process again.  This
+
+is quantum secure.  Because it is
+
+like a bubble now.  As soon as anyone
+
+tries to touch that bubble, that
+
+bubble will burst.  That bubble will burst soon.  So first assume that
+
+it has measured a quantum particle.  If
+
+another quantum particle is sent further, then
+
+any possibility can come to it.
+
+Now he is no longer entangled with it.  The
+
+particles that were coming out of the factory earlier were
+
+near this one and the ones that were going towards this one were
+
+Enteng.  But as soon as Eve saw it,
+
+as soon as the hacker saw it, it collapsed.
+
+That entanglement is over.  Now
+
+whenever he sends it here then there is no entanglement.
+
+Now this will not happen, this is its forest.  Its
+
+zero.  No, now that quantum particle, that
+
+entangled one, did not go to it.  And
+
+that is the main crux of what is happening here,
+
+I am not applying quantum quantum but quantum to everything.  No Cloning
+
+Theorem.  Now this no cloning theorem
+
+tells us that you cannot make a replica of any quantum system.
+
+Can never make an exact copy.  Like what happens right now
+
+?  You went to a party, you went on a trip to your
+
+friend, your friend took a
+
+lot of pictures and you said, brother
+
+send me those pictures, if you slap him
+
+a couple of times, maybe he will give it to you,
+
+but yes, you
+
+can transfer those pictures to you, you can make a replica of
+
+things, this cannot be done here, a copy cannot be made,
+
+making an exact copy of anything is not possible,
+
+this theorem restricts it, I have even proved it
+
+in my previous lectures, but for
+
+now, again just
+
+keep this in mind that an exact copy of any quantum system
+
+cannot be made.
+
+I am not going to leave without telling the reason.  It
+
+cannot be made
+
+because to make a copy of anything, you will
+
+have to measure it first.  Suppose there is a soap bubble.
+
+You have to see how that soap bubble is made.
+
+So first, we will have to experiment with that.
+
+He will have to touch it also.  But
+
+as soon as you touch it, that
+
+bubble will burst.  I am just giving an analogy in the same way you
+
+look at the bubble, this is a quantum bubble.
+
+You
+
+have to see it to make a complete replica of it.  We will have to look at each and every atom to see
+
+how it is connected.   You will
+
+have to look from the inside side also.  But
+
+as soon as you touch it, that bubble will burst.  Same thing
+
+happens here as well, as I don't
+
+know whether the state is zero or one right now.  As
+
+soon as I become Major, brother, the whole thing will be exposed.
+
+Either zero will come or one will come.  The
+
+collapsed wave function.  I am not going to use the word wave function right now.
+
+By the way that will be a different
+
+story.  But once I want to
+
+replicate a quantum system,
+
+I'll have to do measurements.   If
+
+I do the measurements it will collapse.
+
+Isn't it?  Hey, if you want to make a replica then you will
+
+have to make its superposition also.  I have
+
+this box.  There may be a head as well as a tail inside it.
+
+And I want to
+
+make a similar box.  There are many such head tail,
+
+head tail coins lying around.  And I
+
+want to create the same replica of it.  So first
+
+I will have to go inside this compartment and see.  I will
+
+have to do measurement on these coins too, but if I do the measurement then I will
+
+lose this superposition property.  This
+
+was the main problem that this is the main
+
+secure system that I was just talking about
+
+and as soon as we
+
+try to match them with each other, then it will be detected
+
+and here another team, another
+
+term comes in if there is a mismatch
+
+which we are trying to compare with each other.
+
+So as soon as we have a mismatch,
+
+here comes a term called percentage of
+
+errors.
+
+A term is used to describe the number of errors that occur: quantum bit error rate.
+
+Note down the quantum bit error rate somewhere, if you
+
+read the news again then you will
+
+understand what it means.
+
+And let us
+
+assume that this quantum bit error rate is
+
+high, then it means that somebody has created some trouble.  There
+
+was some hacker
+
+in between.  Someone was an e-dropper.  But if we
+
+assume a little error is coming then it could be
+
+that there was a problem in our communication system.
+
+Now we have to
+
+set some limit for this.  And as soon as
+
+we confirm them with each other and there is a
+
+mismatch, some error occurs
+
+in between, so we start again.
+
+That process of entanglement
+
+starts again.  And the thief gets
+
+caught.  Meaning the thief is not
+
+caught.  We come to know that somebody has played some tricks
+
+in between and
+
+our secret key or the secret which we
+
+wanted to send from one point to another by
+
+trapping it in this light, will
+
+still be safe; this is the main
+
+thing we have and after this,
+
+finally we come to this quantum
+
+distribution, it is based on the
+
+losses of quantum physics,
+
+all these things are based on the losses of quantum physics, it has to be
+
+kept in mind, what have IIT Delhi and DRDO
+
+done together?  Free space
+
+optical link.  Meaning, without any optical
+
+fiber, I will add this term also.
+
+Free Space
+
+Optical Link simply
+
+means that they have covered a distance of
+
+100 Km using photons without using any fibre optics.  It has been
+
+sent at a distance of.
+
+Information has been sent from Prayagraj to Vidhyanchal.
+
+And the best thing is that this
+
+quantum bit error rate was extremely low
+
+and this was also the biggest success.  There was very little
+
+this error in it.  Errors are bound to happen.
+
+We haven't made it that efficient yet.
+
+And
+
+one more term
+
+comes to us about the security rate, the secure rate,
+
+this was very high because of which
+
+I said that it is a big success, a very
+
+big thing, India is no longer just
+
+for taking service.  Now he can also provide service.  What I
+
+mean to say is that now we are
+
+developing the technology that we have,
+
+we are building a quantum encryption system.
+
+Now we will not be dependent on anyone.
+
+We have our own.  Now we will
+
+not be afraid of China that it has made a quantum computer.
+
+Quantum computers also
+
+started being made.  By the way, I am going to make videos on that too in the
+
+upcoming videos.  But now
+
+we will not be afraid of this thing at least
+
+that all our military or
+
+defense
+
+information which is confidential
+
+or the banking system or finance
+
+or the government's strategies or their
+
+communication, none of it will be leaked.
+
+If we use this method for
+
+quantum secure communication,
+
+these two organizations have finally demonstrated this quantum secure communication
+
+and as I told you, after this,
+
+people are now working on post quantum cryptography.
+
+Post quantum cryptography
+
+means new methods which
+
+even quantum algorithms and quantum computers cannot break.  I
+
+mean, for now,
+
+physics here is guaranteeing that you are safe.
+
+Your information is safe.  And
+
+where did it go to us here?  Here in post
+
+quantum cryptography,
+
+mathematics is giving you a guarantee that
+
+your information will remain safe.
+
+Employ new methods.  I hope that
+
+if you believe that we combine the two, then
+
+all our encryption systems and the
+
+government policies,
+
+government strategies related to defense and
+
+military, we have put a two-layer
+
+system in it, one is post quantum
+
+cryptography and one quantum cryptography,
+
+brother, it will become such a system which will be
+
+unbreakable, it will be impossible to break,
+
+think about it, I hope that I will be
+
+able to explain it a little and give an idea as to
+
+what actually happened in the
+
+quantum secure communication system or
+
+what IT Delhi and DRDO actually did together, perhaps I would have been able to tell that.
+
+See you in another video
+
+with some other interesting topic.  Till then
+
+, bye-b take care of yourself.

@@ -1,0 +1,1693 @@
+- An Air India Boeing 787 took off
+
+for what should have
+
+been a routine nine-hour flight,
+
+but then ended up
+
+crashing into buildings
+
+just half a minute after departure.
+
+(plane booms)
+
+Why?
+
+What actually happened?
+
+Well, I will get to the details
+
+from the interim report soon,
+
+but first I want to talk
+
+about the period leading up
+
+to its release
+
+on the 11th of July, 2025.
+
+Unfortunately, in the immediate
+
+aftermath of this tragedy,
+
+there were no real updates
+
+from the investigators,
+
+which frankly isn't that surprising
+
+given how much they had to do
+
+and how careful they needed to be
+
+in weighing the information.
+
+But this also meant
+
+that there was
+
+a substantial information vacuum,
+
+which gave rise to wild speculation
+
+or even worse, real trash
+
+in the form of deliberate misinformation
+
+that a very large section of the public
+
+just wasn't equipped to
+
+distinguish from the truth.
+
+For example, several fake
+
+interim reports were circulated
+
+and one of them claimed
+
+that the captain's seat
+
+had slipped or fallen backwards,
+
+causing him to inadvertently
+
+pull back on the thrust
+
+levers without even realizing it.
+
+Now that actually did happen
+
+to an Air India Express flight,
+
+a Boeing 737-800, which
+
+I covered in a different video.
+
+But that also meant
+
+that these hoaxsters
+
+were now using a mix of AI tools
+
+and real stories to create narratives
+
+that initially
+
+looked really believable,
+
+thanks to details
+
+from that older story
+
+and its final report.
+
+Now I know that not everyone
+
+can quickly identify these scams.
+
+They are designed
+
+to deceive and they really do.
+
+And in events like this,
+
+it's always important
+
+to turn to reliable sources
+
+and to think critically,
+
+especially when you see
+
+something really shocking
+
+being sent to you
+
+from a friend or colleague.
+
+Since at least some
+
+of this fabricated material
+
+is based on real events and reports,
+
+it looks super convincing,
+
+even to industry insiders
+
+and that just makes my blood boil.
+
+Not only do we have
+
+a horrible tragedy on our hands,
+
+the first fatal crash of a Boeing 787
+
+and the deadliest crash in a decade,
+
+no, we also have people
+
+knowingly spreading AI-generated nonsense
+
+just to get some temporary attention
+
+or for some other nefarious motives.
+
+That is actually a big
+
+part of why my team and I
+
+have been following this story closely
+
+and making frequent video
+
+updates for you guys,
+
+and I hope you appreciate that.
+
+But now, finally, we
+
+have a preliminary report,
+
+and while it still doesn't include
+
+any definitive conclusions,
+
+it sheds a lot of light
+
+on what happened.
+
+So this video is
+
+all about the facts here,
+
+what we do know and what it means,
+
+and also what we don't know,
+
+which is just as important.
+
+And it's also about
+
+what you can do from now on
+
+to remain well informed.
+
+This tragedy happened
+
+on Thursday the 12th of June, 2025,
+
+involving Air India Flight 171
+
+from Ahmedabad to London's
+
+Gatwick Airport in the UK.
+
+Until this tragic event,
+
+Flight 171 was a daily service
+
+for Air India, departing
+
+early in the afternoon.
+
+And on this day,
+
+the aircraft had been scheduled
+
+to depart at 1310 local time.
+
+The flight's captain
+
+was a 56-year-old male
+
+who had a total flight
+
+experience of 15,638 hours,
+
+and nearly 8,600 hours
+
+was on the Boeing 787,
+
+of which 8,260
+
+was as pilot-in-command.
+
+Now, earlier local news reports said
+
+that he was also
+
+a line-training captain
+
+with Air India and that he
+
+planned to retire soon,
+
+but that was not
+
+mentioned in the report.
+
+His first officer was 32 years old
+
+and had a total flight
+
+experience of 3,403 hours,
+
+of which 1,128 hours were
+
+flown on the Boeing 787.
+
+And it's important to
+
+note here that for this flight,
+
+the first officer was pilot flying
+
+and the captain was pilot monitoring.
+
+As part of their pre-flight preparation,
+
+the two pilots underwent
+
+some medical checks,
+
+including a breath analyzer test,
+
+which showed that they were both fit
+
+to operate the flight over to Gatwick.
+
+Both pilots also seemed
+
+to have gotten adequate rest
+
+before the flight,
+
+according to the report.
+
+One of the speculations we heard
+
+before the preliminary
+
+report was released
+
+was that the aircraft might
+
+have been carrying something
+
+that could have affected
+
+the instruments on board,
+
+but the load manifest showed
+
+that there were no dangerous
+
+goods on board this flight.
+
+Anyway, the pilots' fuel calculations,
+
+the rest of the loadsheet
+
+as well as the V-speed calculations
+
+didn't raise any flags
+
+for the investigations either.
+
+Everything was apparently
+
+within allowable limits.
+
+Once the crew were ready,
+
+they taxied out for departure
+
+about half an hour behind schedule
+
+towards Runway 23.
+
+Now, Ahmedabad only has one runway,
+
+and its parallel taxiway doesn't run
+
+all the way to the
+
+threshold for Runway 23.
+
+And this meant that the
+
+crew had to taxi out
+
+and enter the runway
+
+from taxiway Romeo four,
+
+which is connecting close
+
+to about halfway down the runway.
+
+Now, initial ADS-B data
+
+of the plane's taxi route
+
+was missing quite a lot of data points,
+
+which also created
+
+some initial controversy,
+
+where some suspected that the crew
+
+might have tried to take off from
+
+that intersection taxiway, Romeo Four
+
+but later reporting,
+
+and, of course,
+
+this preliminary report confirmed
+
+that the 787 did not take off
+
+from that midfield position.
+
+Instead, the flight crew backtracked
+
+to the threshold of the 3,505-meter,
+
+or 11,500 feet long runway,
+
+and then made a full length takeoff.
+
+Now Ahmedabad Airport is only 58 meters
+
+or 189 feet above sea level,
+
+but at the time of their departure,
+
+the high temperature
+
+of around 37 degrees Celsius,
+
+or 98.6 Fahrenheit,
+
+meant that the density altitude
+
+was around 3,200 feet.
+
+This requires a bit extra
+
+performance from the aircraft,
+
+but nothing that the Boeing 787
+
+and its mighty GEnx engines
+
+couldn't handle on this day.
+
+And, of course, these are conditions
+
+that crews flying in and out of India
+
+would have been entirely familiar with.
+
+The crew started their takeoff roll
+
+at time 0807 and 37 seconds UTC,
+
+and then reached
+
+their V1 decision speed
+
+just under a minute later,
+
+which would be
+
+considered completely normal
+
+for their takeoff weight.
+
+The plane's weight on
+
+wheel switches then indicated
+
+that they lifted off at time
+
+0808 and 39 seconds.
+
+And initially, all videos
+
+taken from this event showed
+
+that they achieved
+
+a normal positive rate of climb.
+
+But very soon, these
+
+same videos then showed
+
+that this climb flattened out
+
+and then quickly turned into a descent,
+
+one that the aircraft
+
+then never recovered from.
+
+- The Air India incident
+
+that Petter's covering here
+
+is one of the most
+
+shocking aviation events
+
+in recent memory.
+
+And since then,
+
+the preliminary report
+
+has been released,
+
+bringing some surprising
+
+and important updates.
+
+With over 300
+
+articles covering the story,
+
+we needed a clearer,
+
+unbiased view of the events,
+
+so we turned to Ground News.
+
+It helped us cut through the noise
+
+and you can follow along too
+
+at ground.news/mentour.
+
+Right away, it's clear that about 30%
+
+of the coverage
+
+comes from media conglomerates
+
+and only about 10% comes
+
+from independent sources.
+
+And what stands out
+
+to me in the coverage
+
+of the Air India incident
+
+is how differently outlets
+
+choose to frame the story.
+
+Some focus on individual responsibility
+
+or emotional angles
+
+while others emphasize procedures,
+
+diplomacy or tech details.
+
+It shows how left
+
+and right-leaning sources
+
+often highlight different aspects based
+
+on their audience
+
+and editorial approach.
+
+Importantly, Ground News
+
+indicates the factual accuracy
+
+of each source, allowing us
+
+to filter by those we trust,
+
+which is ideal for
+
+stories of this complexity.
+
+There's even a custom
+
+Mentour feed with all the aviation,
+
+Boeing and tech news that I cover.
+
+And if you're tired
+
+of sensational headlines,
+
+check it out at ground.news/mentour
+
+or scan the QR code to get 40% off.
+
+It's just $5 a
+
+month for a limited time.
+
+Thanks to Ground
+
+News for sponsoring this.
+
+Now, let's get back to the video.
+
+- Now, I'll come back to
+
+the findings in this report soon,
+
+but first let's look
+
+at some of the speculation
+
+that we all heard
+
+immediately after the event.
+
+For example, initially there was
+
+a big focus on the flaps.
+
+- The flaps were not down.
+
+- One theory being that the crew
+
+might not have set them
+
+correctly for the takeoff.
+
+We now know for a
+
+fact that this didn't happen.
+
+The flaps were correctly set.
+
+And, in fact, that mistake
+
+would have been
+
+a really difficult one to make
+
+in today's aircraft since several
+
+of our pre-departure
+
+checklists include these flaps
+
+and those checklists
+
+are electronic on the 787.
+
+And on top of that,
+
+the aircraft also knows
+
+where the flaps should
+
+be and therefore,
+
+will warn the pilots
+
+if they're not set correctly.
+
+Now the point I want to make here
+
+is that with the low resolution
+
+videos that we first saw,
+
+seeing if the flaps were actually set
+
+was really, really difficult.
+
+Even with good
+
+resolution pictures or videos,
+
+the slats might be
+
+a little bit more visible,
+
+but you have to look
+
+very closely to be able
+
+to tell how the
+
+trailing edge flaps are set.
+
+You see, one of the things
+
+the 787 is famous for
+
+is its carbon fiber
+
+composite fuselage and wings.
+
+And the fact that carbon
+
+fiber is much less prone
+
+to fatigue cracking also means
+
+that they can be very flexible and thin,
+
+making them more efficient.
+
+The Boeing 787-8 has two flap settings
+
+commonly used for takeoff,
+
+flaps five and flaps 15.
+
+And with flaps five, which
+
+we now know that these pilots
+
+were using for this takeoff,
+
+the leading edge flap surfaces,
+
+the slats, extend
+
+and the trailing edge flaps
+
+also extend rearwards,
+
+but they droop down only slightly,
+
+which is why they are so hard to see.
+
+The next point
+
+that got people's attention
+
+were the engines,
+
+and there was an
+
+early reason for that,
+
+especially after the circulation
+
+of a better quality version
+
+of a video where a buzzing
+
+noise could clearly be heard,
+
+which led a lot of people to believe
+
+that the Ram Air Turbine,
+
+or RAT, had been deployed.
+
+Again, it's almost impossible
+
+to see the RAT in the videos,
+
+it's the size of a propeller
+
+of a small general aviation aircraft,
+
+but it would be spinning
+
+fast in the slipstream,
+
+causing that very characteristic noise.
+
+Its mast and door would
+
+be somewhat easier to see,
+
+but not from the rear and at
+
+the resolution of these videos.
+
+However, like I said,
+
+it is possible to distinguish
+
+the noise from the RAT,
+
+and other CCTV footage
+
+that we didn't get access to initially,
+
+but that was included
+
+in the preliminary report,
+
+showed that the Ram Air Turbine
+
+or RAT did indeed deploy,
+
+while the aircraft was
+
+still in its initial climb.
+
+The investigation also clarified
+
+that there was no
+
+significant bird activity
+
+close to the aircraft,
+
+which might have affected
+
+the aircraft's engines,
+
+but obviously the RAT's deployment
+
+meant that there was a lot
+
+of focus on the engines
+
+and what might cause
+
+them to lose power.
+
+Now, there are many reasons
+
+why the RAT can deploy,
+
+and many of them does
+
+not involve a dual engine failure,
+
+as Ben and I have discussed
+
+in our previous podcast
+
+over on the Captains Speaking
+
+podcast channel,
+
+but one point worth highlighting here
+
+is that a dual-engine failure
+
+is not only extremely rare,
+
+it is also practically impossible
+
+for both engines to fail
+
+at the exact same time
+
+due to most technical faults.
+
+That's important to understand,
+
+because like I said earlier,
+
+we could see in one of the videos
+
+that the plane rotated,
+
+and initially started to gain
+
+altitude for several seconds,
+
+which means that it definitely
+
+did have power to begin with.
+
+But unless it lost power
+
+from both engines
+
+at more or less exactly the same time,
+
+we should be able to
+
+see a distinctive yawing movement
+
+when it happened.
+
+The engines are quite
+
+far apart out on the wings,
+
+and losing one means
+
+that it will suddenly
+
+generate a lot of drag,
+
+while the other engine
+
+would obviously
+
+still be producing thrust,
+
+and that asymmetric
+
+thrust should be visible.
+
+Now, even with something
+
+like fuel contamination,
+
+which could affect both engines,
+
+dual failures at the same time
+
+are practically impossible.
+
+And yet, we saw no such
+
+yaw on any of those videos,
+
+or any obvious signs
+
+of a technical engine trouble,
+
+like smoke coming out
+
+of one of them or surges.
+
+But there is also
+
+a small caveat to this.
+
+The Boeing 787 is
+
+a very modern airliner,
+
+complete with a fly-by-wire system,
+
+and that system is actually designed
+
+to automatically
+
+compensate for asymmetric thrusts
+
+using the rudder and the rest
+
+of its controls if necessary.
+
+The aircraft will even move
+
+the rudder pedals
+
+when it does this to let
+
+the pilots know what it is doing.
+
+So, in theory at least,
+
+that could explain why we
+
+can't really see any momentary yaw
+
+in the videos if the aircraft lost power
+
+from its engines at different times.
+
+Another point worth mentioning
+
+here is the landing gear.
+
+Like most widebody aircraft,
+
+the 787 has main gear legs
+
+that are equipped with trucks or boogies,
+
+which means that
+
+each leg has four wheels,
+
+two front and two rear.
+
+The preliminary report shows
+
+that the landing gear lever was found
+
+in the down and locked position,
+
+and there is no
+
+mentioning of the lever
+
+being moved during the
+
+entire accident sequence.
+
+Now, that is interesting,
+
+because when the landing
+
+gear is down and locked,
+
+the rear pair of the wheels
+
+on each boogie sits
+
+lower than the front pair.
+
+But before the gear can be retracted,
+
+the mechanism rotates the boogie
+
+so that the front pair of the wheels
+
+drops lower than the rear,
+
+and that's to allow the wheels
+
+to fit better into the wheel well base
+
+at the bottom of the fuselage.
+
+Now, normally, when the
+
+boogies do this rotation,
+
+the main gear doors open
+
+at pretty much the same time.
+
+And in at least one of the videos,
+
+the boogies seem to be rotated
+
+and the front wheel sits lower
+
+than the rear wheels on each leg,
+
+but the main
+
+gear doors remain closed.
+
+Now, we don't know
+
+why this happened,
+
+if the gear retraction
+
+sequence actually was initiated
+
+and not mentioned in the interim report,
+
+or if that gear position
+
+is a visual illusion of some sort.
+
+The 787 does include
+
+a lot of automation
+
+for its electrical
+
+and hydraulic systems,
+
+all of which could have affected
+
+what we saw without
+
+any action from the pilot.
+
+So we likely won't
+
+know the answer to that
+
+until the final report comes out.
+
+But let's now see what we
+
+actually do know
+
+from this interim report.
+
+We first learned that the investigation
+
+was focusing on the
+
+fuel cutout switches,
+
+thanks to an article by Jon Ostrower
+
+in The Air Current
+
+from the 8th of July.
+
+Now, by the way, The Air Current
+
+is one of the most
+
+important aviation insider sources
+
+that my team and I use for
+
+our Mentour Now! channel.
+
+And they are extremely sensitive
+
+about misinformation and speculation,
+
+so we knew that they wouldn't
+
+publish something like this
+
+without having good sources.
+
+Now, the fuel cutout
+
+switches are located
+
+on the central pedestal behind
+
+the two thrust levers,
+
+and we pilots normally
+
+manipulate them on the ground,
+
+either to start the
+
+engines before a flight
+
+or to shut them down
+
+after we stop at the gate.
+
+They are located where they are
+
+within easy reach of each of the pilots
+
+because they also form part
+
+of several important
+
+emergency checklists
+
+like engine fire, severe damage
+
+or separation for example,
+
+where we quickly might need
+
+to cut the fuel to the
+
+burning or damaged engine.
+
+Now, after that initial
+
+reporting from The Air Current,
+
+sure enough, the
+
+preliminary report did show
+
+that at time 0808 and 42 seconds,
+
+just three seconds
+
+after Air India Flight 171
+
+had become airborne,
+
+the fuel cutout switches
+
+of first engine number one,
+
+then a second later,
+
+engine number two
+
+suddenly transitioned
+
+from run to cutoff.
+
+As Ben and I have explained
+
+in another live podcast,
+
+there are a couple of features designed
+
+in these switches to
+
+make sure that nobody
+
+can bump or move them accidentally.
+
+First, there are two big ears poking out
+
+of the pedestal on
+
+either side of the switches
+
+to shield them from
+
+any accidental bumping.
+
+And secondly, the
+
+switches themselves
+
+can't simply be flipped back and forth.
+
+No, to move them, you
+
+first need to pull upwards,
+
+then pivot the switch
+
+over into a new position
+
+and then release it into its new notch.
+
+This is a well-proven design.
+
+Other switches in Boeing cockpits work
+
+in very much the same way,
+
+like the landing gear lever for example,
+
+which also needs to be pulled out
+
+and then rotated and released.
+
+Now, I should mention
+
+that the preliminary report
+
+also highlights an FAA
+
+Special Airworthiness
+
+Information Bulletin,
+
+or SAIB, that was
+
+released back in 2018.
+
+That bulletin involved
+
+the locking feature
+
+of the fuel
+
+control switches like these,
+
+but ones that were
+
+installed on Boeing 737s.
+
+And the bulletin said
+
+that some of these switches
+
+were apparently installed
+
+with the locking feature disengaged
+
+or not up to standard.
+
+But that was, however, not considered
+
+an unsafe condition by the FAA,
+
+and even though an inspection
+
+of these switches was recommended,
+
+it was never made mandatory.
+
+The interim report states
+
+that Air India had
+
+not made this voluntary inspection
+
+of this particular aircraft,
+
+but it's important to point out here
+
+that there are no reports
+
+in the history of this aircraft
+
+showing any critical problems
+
+with these specific switches.
+
+On top of that,
+
+the report also points out
+
+that the fuel control module
+
+that includes these
+
+switches was replaced
+
+on this aircraft twice
+
+after this SAIB was issued,
+
+once in 2019 and again in 2023,
+
+for reasons that had nothing to do
+
+with the fuel control switches.
+
+Now, I really want
+
+to stress that at this point,
+
+we do not know how
+
+or why these switches were moved,
+
+but we know that one
+
+of the pilots did ask the other,
+
+why did he cut off?
+
+And the other pilot replied
+
+that he did not do so.
+
+Those statements will be
+
+the subject of a lot of scrutiny
+
+by the investigation going forward,
+
+but at the moment it can be interpreted
+
+in two different ways.
+
+One that the pilots did,
+
+in fact, not move the switches,
+
+but the other that one of them did
+
+but just didn't own up to it.
+
+In any case, the aircraft
+
+did as it was told.
+
+Fuel to the engines
+
+was immediately cut off,
+
+and the engines
+
+quickly started rolling back.
+
+And that obviously was what triggered
+
+the release of the
+
+Ram Air turbine in the back,
+
+which I mentioned earlier.
+
+Then, at a time 0808
+
+and 52 seconds,
+
+10 seconds after
+
+the fuel control switches
+
+were moved to cut off,
+
+someone then moved the
+
+engine one switch back to run,
+
+and four seconds later also
+
+the switch for engine number two.
+
+At the same time,
+
+the aircraft automatically
+
+initiated the start
+
+of its auxiliary power unit,
+
+the APU, to give the
+
+aircraft some extra electrical power.
+
+But unlike the Ram Air turbine,
+
+which started supplying the aircraft
+
+with hydraulics just five seconds
+
+after it was deployed,
+
+the APU likely never
+
+had time to come online.
+
+However, some other systems in the 787
+
+were working to save the aircraft
+
+and its passengers and crew.
+
+When the fuel cut-off
+
+switches are moved back to run
+
+and the plane is in flight,
+
+the engine electronics
+
+automatically attempt
+
+to relight the engines
+
+as soon as possible.
+
+So that was what now happened.
+
+The flight data recorder showed
+
+that the exhaust gas temperatures, or EGT,
+
+for both engines now started rising.
+
+Engine number one,
+
+whose switch was restored first,
+
+stopped its deceleration
+
+and started to recover.
+
+Engine number two was a bit slower,
+
+but in any case, by this point,
+
+it was already too late.
+
+13 seconds after the first
+
+engine switch was moved to run,
+
+one of the pilots made a Mayday call,
+
+whose exact wording
+
+was not quoted in the report.
+
+And just another six seconds later,
+
+the aircraft hit the northeast
+
+wall of a nearby building
+
+with an estimated nose-up
+
+angle of about eight degrees.
+
+When it did so, it quickly disintegrated,
+
+with pieces of its fuselage,
+
+wings and engines
+
+subsequently hitting
+
+four more buildings around,
+
+and its enormous fuel load caught fire.
+
+All but one of the plane's 242 occupants,
+
+plus 19 people on the ground,
+
+lost their lives in the crash,
+
+and many more on the ground
+
+were seriously injured.
+
+So where do we go from here then?
+
+Well, again, this is
+
+a preliminary investigation report,
+
+which is intended only
+
+as a factual account of what happened.
+
+We will know the full story
+
+when the final report is released,
+
+likely in a year or two from now.
+
+Until then, I would really
+
+recommend everyone
+
+to try to stay clear of
+
+speculation around the Boeing 787,
+
+Air India and everything else here,
+
+until the investigation comes
+
+with actionable safety actions to take,
+
+because only then can we be sure
+
+that all of the different angles
+
+have been taken into account.
+
+Now like I said in the beginning,
+
+the early information vacuum
+
+on this accident meant
+
+that people started looking
+
+in the most unlikely places
+
+for any type of information.
+
+Cabin entertainment system
+
+that doesn't work on the ground,
+
+or air conditioning systems
+
+that aren't running
+
+immediately after boarding
+
+can be really frustrating for sure,
+
+but these systems are often separate
+
+from what we pilots
+
+consider in the cockpit
+
+and what we need for a safe flight,
+
+and they seldom offer any clues
+
+about what caused
+
+an accident like this.
+
+Now when it comes to misinformation,
+
+there are a few clues to
+
+look for in order to see them.
+
+The very first hoax reports
+
+came within days of the crash,
+
+adding that a final report
+
+would be ready within a
+
+coming couple of days,
+
+and that would obviously
+
+be utterly impossible.
+
+So if you see reports like this,
+
+have a look at the dates
+
+and see if they make sense.
+
+Again, this is the worst
+
+aviation accident
+
+in the last decade, and attention on it
+
+could remain very high for weeks
+
+and months, and rightly so.
+
+Understandably, Boeing took
+
+this matter very seriously,
+
+effectively pulling out of
+
+the Paris Air Show in June
+
+to help assist the investigation
+
+in any way that they could.
+
+But here I should also
+
+point out that at least
+
+as we are recording this,
+
+we haven't heard Boeing
+
+releasing any safety bulletins
+
+or the FAA publishing
+
+any airworthiness directives
+
+on the Boeing 787, and there were also
+
+no such indications
+
+in the interim report.
+
+This suggests that
+
+even though the investigation
+
+is slowly focusing
+
+on specific systems,
+
+this accident is likely not related
+
+to a design problem with the aircraft.
+
+But that's where
+
+we need to draw the line
+
+between speculation and information.
+
+India's Aircraft Accident
+
+Investigation Bureau have support
+
+from the NTSB, the FAA
+
+and from Britain's
+
+Air Accident Investigation Branch,
+
+and by the way, this preliminary report
+
+was far more detailed
+
+than many had expected,
+
+which I am super, super happy to see.
+
+It is refreshing to
+
+see that kind of openness
+
+and transparency, which is
+
+exactly what we need
+
+in order to learn
+
+from tragedies like this.
+
+Now I hope that
+
+you found this video interesting.
+
+Let us know in the comments
+
+if you have any
+
+more questions about it,
+
+and Ben and I will try
+
+to answer them in a future
+
+Captain Speaking podcast.
+
+I also take a lot of live questions
+
+in my Zoom hangouts
+
+with my fantastic Patreon crew,
+
+who makes these kind
+
+of reporting videos possible.
+
+And if you want
+
+to join my next hangout,
+
+then scan this QR code
+
+or go to patreon.com/join/mentourpilot
+
+I would love to see you there.
+
+My name is Peter Hörnfeldt
+
+and you're watching Mentour Now.
+
+Have an absolutely fantastic day
+
+and I'll see you next time.
+
+Bye bye.

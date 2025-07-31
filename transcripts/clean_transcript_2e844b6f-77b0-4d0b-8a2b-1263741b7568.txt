@@ -1,0 +1,3491 @@
+hi welcome to a new video on generative
+
+AI we all know the wave of generative AI
+
+is growing drastically and companies are
+
+investing a lot in order to get into the
+
+field of generative Ai and eventually
+
+they are hiring a lot of gen AI
+
+engineers and I know most of you who are
+
+coming from a data science AI background
+
+you want to get into generative AI you
+
+want to leverage large langage models
+
+you want to do some sort of model
+
+building in the field of generative Ai
+
+and many of you are gen enthusiasts who
+
+are willing to learn generative AI now
+
+you might have worked with large
+
+language models you might know open AI
+
+you might know Lama you might know
+
+several other large language models but
+
+have you ever wondered how do we
+
+evaluate these kind of models now
+
+traditionally speaking when it comes to
+
+machine learning or deep learning
+
+depending on the type of problem that we
+
+solve whether it is a classification
+
+problem or regression problem we usually
+
+have a set of evaluation metrics right
+
+area under Aros curve or Precision or
+
+recall or accuracy and many other things
+
+but when it comes to large language
+
+models when you have a set of documents
+
+you are training this as part of rags
+
+and creating a chat bot eventually
+
+asking a question and the chatboard is
+
+responding how do we evaluate whether
+
+the answer is correct or not well this
+
+is where the ragas framework comes into
+
+picture people are calling it as rag as
+
+or ragas whatever it is but it is it is
+
+basically r a g s now everybody knows
+
+about rack retrieval augmented
+
+generation and rag as framework is
+
+nothing but the rag assessment framework
+
+now inside this framework there are
+
+various other things to understand what
+
+exactly is this framework what type of
+
+evaluation metrics do we use and what
+
+are the practical implications as in how
+
+do we practically implement this to
+
+evaluate our large language models
+
+everything will be covered in this video
+
+so in this series of videos you will be
+
+hearing my voice along with me there
+
+will be another trainer whose name is
+
+dup Saka and he's also going to teach
+
+some of the videos in case you want to
+
+get connected with him the link of his
+
+profile will be in the description you
+
+can connect with him basically he's
+
+working with me since long time on
+
+various freelancing projects so that's
+
+it see you in the video in case you have
+
+any other requirement any other
+
+expectation you want me to come up with
+
+any topic related videos let me know in
+
+the comment section and we will get back
+
+to you my name is Sait patn see you in
+
+the
+
+[Music]
+
+video hi welcome to this series on
+
+evaluation of rag using ragers to get
+
+started with uh let me just quickly talk
+
+about rag framework I hope everybody is
+
+aware of rag rag is nothing but
+
+retrieval augmented generation right we
+
+have already gone through rag in in
+
+separate videos I'm expecting everybody
+
+to have knowledge on rags in case you
+
+don't have please go back to the videos
+
+where I have explained rag in depth and
+
+then come back to this video so just to
+
+reiterate few of the things that we have
+
+already studied rag is nothing but
+
+retrieval augmented generation right
+
+usually when we are dealing with
+
+generative AI large language models
+
+augmented generation when we are dealing
+
+with large language models usually what
+
+happens is there could be situations
+
+where your model is not performing well
+
+or not answering well or could be um
+
+giving answers without any context so
+
+basically that step is called as
+
+hallucination right now there are also
+
+various scenarios where large language
+
+models does not perform well for example
+
+when it comes to custom data and that is
+
+where rag comes into picture because
+
+when you start working on use cases
+
+where you are dealing with custom data
+
+so let's say let's say we'll take
+
+example for better understanding imagine
+
+you are kind of working with PDFs
+
+imagine you have multiple PDFs let's say
+
+okay let's say you all are generative AI
+
+Enthusiast willing to learn generative
+
+AI imagine you have documents from
+
+different domains let's say you have
+
+have NLP related document deep learning
+
+related document Transformers related
+
+document generative AI related document
+
+prompt engineering document and so on
+
+now imagine you want to create a coach I
+
+will I will write it down as ai ai coach
+
+now imagine you want to create a AI
+
+coach which is nothing but a chatbot
+
+right it's a
+
+chatbot and imagine you want to feed all
+
+of these PDF documents to your chat that
+
+means you want to create your own
+
+generative AI chatbot using these PDF
+
+documents now if you ask some random
+
+questions on mathematics or on science
+
+if they are not related to these topics
+
+eventually this chatbot will not be able
+
+to answer so chatbot will only answer
+
+from these these these topics that's it
+
+and this is where rag comes into picture
+
+where you are using retrieval augmented
+
+generation technique you are creating a
+
+chatboard using rag framework and then
+
+your chatboard is basically learning
+
+from those documents okay without going
+
+in depth into rag I I'm expecting
+
+everybody to know about Rags so I'm just
+
+skipping this part okay so now in this
+
+video we are focusing on how do we
+
+evaluate large language models right
+
+because
+
+eventually
+
+evaluation now eventually when you're
+
+creating a chatbot and let's say you
+
+asking a question okay what is NLP or
+
+let's say what is uh
+
+tokenization right this is something
+
+which is related to this topic NLP now
+
+this is being asked let's say I will I
+
+will I will draw this something like
+
+this let's say we'll talk about the
+
+architecture diagram here so let's say
+
+you have multiple PDFs right NLP deep
+
+learning Transformers generative AI blah
+
+blah blah now from all of these 105 PDFs
+
+what you're doing is PDF by PDF you are
+
+basically chunking it down creating
+
+chunks so PDF 1 chunks PDF 2 chunks PDF
+
+3 chunks and so on and then these chunks
+
+are eventually converted into Vector
+
+data Vector data and Vector data and
+
+this Vector data is basically stored in
+
+a vector database so let's say I'm I'm
+
+taking pine cone as an example and I'm
+
+storing everything here right now what's
+
+happening is now this is your Bot right
+
+this is your front
+
+end okay um my bad so this is your font
+
+end okay this is a chat bot CB chatbot
+
+now this is you who is basically using
+
+this chatbot to ask question now what
+
+I'm going to do is I'm going to copy
+
+this let's say the question is what is
+
+tokenization what's happening internally
+
+same techniques happen you convert data
+
+or your natural language into Vector
+
+data and from here basically you are
+
+going to the vector database to get all
+
+the relevant information imagine you get
+
+all of these relevant information here
+
+let's say Vector 1 Vector 3 Vector 5 now
+
+here there are millions of vectors right
+
+there are millions and millions of
+
+vector data you just getting three four
+
+or five that's it whoever like whatever
+
+is the closest answer that you're
+
+getting now this is where large language
+
+model comes into picture where they are
+
+basically doing the chat completion
+
+thing right and this is your rag
+
+architecture now imagine your output is
+
+something like this let's say I'm going
+
+to use poe.com to
+
+basically ask a question what is
+
+tokenization and this is what your
+
+answer is Right blah blah blah blah blah
+
+tokenization is a processor breaking
+
+down text to blah blah blah right now
+
+these are all your output I'm I'm just
+
+taking let's say this is my output okay
+
+so let's say my output is
+
+this one
+
+second okay now this is my output now
+
+now here as this output is a generated
+
+output right this exact thing might or
+
+might not be a part of your original
+
+data right maybe your original data has
+
+information about tokenization but the
+
+wordings might not be exactly same but
+
+you're getting this output so in this
+
+case how would you
+
+validate so the easiest validation step
+
+is if you are aware of the topic you are
+
+a domain expert you can like kind of
+
+evaluate yeah this is good this is a
+
+good answer because you know you are an
+
+expert you have that domain knowledge
+
+right so human level intervention is
+
+needed but there are certain instances
+
+where you might not know whether this is
+
+correct or not right so how do we come
+
+across a situation where we can tell
+
+whether our large language model is
+
+working fine or not and this is where a
+
+framework comes into picture which is
+
+called as ragas
+
+so ragas is simply nothing
+
+but rag I'm not repeating the full form
+
+of rag rag
+
+assessment this is what rag as
+
+means okay so ragas provides this
+
+feature where we can evaluate these
+
+outputs from lar language model in form
+
+of Matrix or
+
+numbers okay based on retrieval
+
+generation and complete end to end
+
+everybody's clear about ragas let's move
+
+on to the pp so this is going to be a
+
+very very high level agenda in the in
+
+this entire video so we'll be talking
+
+about what is ragas which we already
+
+have talked we will be talking about
+
+confusion Matrix everybody knows about
+
+confusion metrix because this is one of
+
+the most basic evaluation metric when it
+
+comes to machine learning classification
+
+problems right so everybody knows about
+
+confusion metrics but still I will try
+
+to give a recap on it evaluation of data
+
+ragas expects the following information
+
+different types of evaluation metrix
+
+evaluation metrics retrieval generation
+
+and end to end so that is going to be
+
+the overall
+
+agenda hence forth we will be talking
+
+about all of these things now moving
+
+back to one more thing which is you can
+
+also check the documentation of ragas
+
+which is just simply type in dogs.
+
+rag. you will be redirected to this page
+
+where most of the things are already
+
+mentioned like ragas is a library that
+
+provides tools to supercharge the
+
+evaluation of llm applications it is
+
+designed to help you evaluate your llm
+
+applications with ease and
+
+confidence some of the core concept how
+
+to get started with it how to guides
+
+many many other things some FAQs are
+
+also mentioned what is the best open
+
+source model to use so of course there
+
+is no such answer right there are
+
+multiple models available online we
+
+really don't know which model or which
+
+open source model is good which one is
+
+not good whether we should use apis
+
+whether we should use open source models
+
+or we should use something else we
+
+really don't know it depends on use case
+
+to use case it depends on hit and trial
+
+and this is where Raga comes into
+
+picture to tell you which model is
+
+actually behaving well in your given
+
+problem
+
+statement hi now let's talk about
+
+confusion Matrix what is confusion
+
+Matrix confusion Matrix is a very
+
+powerful tool used in machine learning
+
+to evaluate the performance of a
+
+classification model right it is
+
+typically represented as a table as you
+
+can see on the screen a table
+
+that summarizes the number of correct
+
+and incorrect predictions made by the
+
+model so if you look at the screen on
+
+the on the top side you have predicted
+
+and on the left hand side we have actual
+
+class let me try to read redraw this so
+
+that we can have a better
+
+understanding so this is how a confusion
+
+Matrix looks like right we have
+
+predicted and we have
+
+actual so yes let's say we have a
+
+positive case let's say I will write it
+
+down as one and negative case and
+
+positive case and negative
+
+case okay now what is this that means
+
+actually positive and predicted as
+
+positive which is called as a true
+
+positive actual positive but predicted
+
+as
+
+negative so actual positive predict
+
+icted as negative so falsely predicted
+
+as
+
+negative this one is actual negative but
+
+predicted as positive which is called as
+
+false positive and this one is actual
+
+negative and predicted as negative which
+
+is called as a true negative okay let me
+
+just verify this yes true positive false
+
+negative false positive and true
+
+negative now false negatives are usually
+
+treated as type two
+
+error okay type two
+
+error and false positives are treated as
+
+type one
+
+error now before getting into the
+
+details of confusion
+
+Matrix can somebody tell me just pause
+
+this video try to answer it to
+
+yourself in the field of medical
+
+industry which type of error is is most
+
+critical now if I have asked you this
+
+question potentially what you can do is
+
+think about a use case let's say cancer
+
+detection or cancer
+
+prediction cancer prediction
+
+okay now okay this is fine you the
+
+patient is cancerous the prediction is
+
+cancerous which is good the patient is
+
+non-cancerous the prediction is
+
+non-cancerous which is good so these two
+
+are good
+
+scenarios and that is why when it comes
+
+to accuracy the formula of accuracy is
+
+very simple it is true positives plus
+
+true negatives divided by total and that
+
+is what accuracy
+
+means okay
+
+so when you're dealing with cancer
+
+prediction imagine this category the
+
+person is actually having cancer but
+
+your model is predicting no now if this
+
+happens your model is predicting no so
+
+let's say the doctor is not doing proper
+
+test or something relying on a machine
+
+learning model but the model is telling
+
+the patient is good so the patient will
+
+not be treated right and eventually the
+
+situation will become worse that's why
+
+false negatives are very very
+
+crucial about this one it is less
+
+crucial because the the patient is
+
+actually non-cancerous but the model is
+
+predicting as cancerous so that means it
+
+could be like an alarm or an alert oh
+
+something is wrong even though it's a
+
+wrong prediction but still this is fine
+
+but in the field of healthcare type two
+
+error is very very critical okay so this
+
+is what a confusion Matrix is so as I
+
+said the most important things are true
+
+positives that means the number of
+
+instances correctly predicted as
+
+positive true
+
+negatives correctly predicted as
+
+negatives false positives number of
+
+instances incorrectly predicted as
+
+positive which is also known as type 1
+
+error and FN is the number of instances
+
+incorrectly predicted as NE negative
+
+also known as type two error now how
+
+confusion see apart from this there are
+
+also topics like recall and precision
+
+recall call and precision these are also
+
+very very important metrics when it
+
+comes to classification problems right
+
+again I would like to ask everybody
+
+about the formula of recall and
+
+Precision in case you know please pause
+
+this video and try to answer so let me
+
+write it down the formula of recall okay
+
+I'll try to write it
+
+here the formula of recall is very
+
+simple true positive
+
+divided by true positive plus false
+
+negative so basically this divided by
+
+this that means in simple
+
+terms truly predicted as
+
+positive truly predicted as
+
+positive
+
+upon the
+
+actual positive
+
+right and talking about
+
+Precision I will write it down as P
+
+which is true positive divided by true
+
+positive plus false positive and this
+
+one is pretty
+
+much truly predicted as positive
+
+upon predicted
+
+positives okay upon predicted positives
+
+so basically TP divided by this chunk
+
+it's your
+
+Precision now if I have to draw a simple
+
+uh table let's say I'm doing a cancer
+
+prediction on let's say thousand
+
+patients so my machine learning model is
+
+already ready with 10,000 or 20,000
+
+patients everything is fine now the
+
+machine learning model is going to
+
+predict for thousand patients okay I'll
+
+try to simply draw a table
+
+predicted positive yes actual Pro
+
+positive and this thing now imagine
+
+actually there are 900 positives and the
+
+model has also
+
+predicted
+
+around okay let's say 850
+
+positives okay so act there are 900
+
+positives
+
+and 100
+
+negatives I think it should be other way
+
+around because we are dealing with you
+
+know uh in uh healthcare industry where
+
+the actual patient the cancerous
+
+patients are way less than the uh
+
+non-cancerous people right so let me
+
+just do it this way so there are 900
+
+negatives or
+
+non-cancerous and 100
+
+cancerous okay I'll do it this way now
+
+this 900 non-cancerous let's
+
+say so basically actually non-cancerous
+
+let's say 850 are correctly predicted as
+
+non-cancerous and 50 are wrongly
+
+predicted as cancerous similarly talking
+
+about 100 cancerous let's say out of
+
+them 90 is correctly predicted and 10 is
+
+wrongly predicted right now in this case
+
+what will be the accuracy so first of
+
+all what will be my FP my FP is 90
+
+what will be sorry my bad what will be
+
+my TP my TP is 90 truly predicted as
+
+positive which is 90 what is what is my
+
+TN which is
+
+850 what is my FN my FN is 10 and what
+
+is my FP my FP is 50 what will be my
+
+accuracy my accuracy is going to be 850
+
++ 90 which is 940 divided by 1,000
+
+percentage is
+
+94% and talking about recall and
+
+precision let's say what will be my
+
+recall my recall is total positives
+
+which is 90 divided
+
+by uh total positives plus false
+
+negatives which is 90 by 100 obviously
+
+into 100 which is going to be
+
+90% and precision is going to be TP
+
+which is 90 divided by 90+ FP FP is my
+
+50 which is going to be 90 by 140
+
+multiply with 100 let's try to use a
+
+calculator and see 90 divided by 140
+
+obviously into 100 the Precision is
+
+low recall is good accuracy is good
+
+Precision is low so not a good model
+
+right because lot of wrong predictions
+
+this is fine 10 is fine but this is bit
+
+higher especially when it comes to
+
+healthcare domain right and when it
+
+comes to use cases like this we usually
+
+go for a combination of accuracy recall
+
+and Precision Precision
+
+score sometimes we also go with F1 score
+
+again just to ask you what is the
+
+formula of F1 score those who are
+
+already because I'm assuming if you are
+
+already watching this video you might
+
+have already good amount of knowledge on
+
+these basic things right confusion
+
+Matrix is nothing but a part of machine
+
+learning it should not be studied in
+
+generative AI it's just that I'm talking
+
+about the evaluation of rag models
+
+that's why I'm rossing this points so F1
+
+score is nothing but 2 multip with p r
+
+divided with p + r now here my F1 score
+
+is let's say 64 by 100 or else let's say
+
+we will do it like
+
+64 multiply
+
+with9 divided by 64 +.9 which is 1.54
+
+whatever it is okay let's say we will
+
+calculate which is going to be 64 multip
+
+.9 multip with 2 divided by
+
+1.54 eventually the F1 score is also low
+
+and that is because of low Precision if
+
+Precision is high let's say 90% F1 score
+
+will be high let's say 2 multiply with
+
+Precision is .9 recall is .9 1.8 it's
+
+going to be how much it's going to be .9
+
+* with .9 * with 2 ided by 1.8 it's high
+
+F1 score is high right so in this case
+
+F1 score is low especially in the
+
+medical industry 7 74.8% is at very very
+
+very very very low okay now as you have
+
+already understood confusion Matrix and
+
+various other
+
+things some of you might be thinking how
+
+are we going to solve in the context of
+
+large language models because in the
+
+context of large language models the
+
+output is a text right so you have your
+
+data then you are chunking it down then
+
+you are storing it in Vector database
+
+and and then you have a user asking a
+
+question then it is vectorized then it
+
+is calling then you get the relevant
+
+information and giving the output and
+
+this is where your llm sits right the
+
+output is nothing but a textual data how
+
+are we going to um evaluate so in the
+
+context of R the retrieval augmented
+
+generation models confusion Matrix also
+
+plays a crucial role in evaluating the
+
+effect iess of models predictions okay
+
+how how is the more important question
+
+right
+
+so so let's say okay there are different
+
+type of problems that you are solving
+
+using llm models if you are solving a
+
+text classification problem you will be
+
+able to relate the importance of
+
+confusion Matrix right let's say you are
+
+creating a model which is going to
+
+answer whether it's a positive sentiment
+
+or a negative sentiment so it's a
+
+classification problem where you're are
+
+leveraging large language models to give
+
+output so your output will be either
+
+positive or negative which is
+
+easily it can be converted into a
+
+confusion Matrix right so let's say
+
+predicted an
+
+actual and let's say you have 100 data
+
+points or 100 reviews to predict some of
+
+them are positive some of them are
+
+negative and you can go for a confusion
+
+Matrix to you know understand this very
+
+simple right let's say 40 correctly
+
+predicted as
+
+positive right 30 correctly predicted as
+
+negative right and let's say 20
+
+incorrectly predicted as positive so 20
+
+here and 10 incorrectly predicted as
+
+negative simple so so in this case what
+
+will be the accuracy the accuracy is
+
+going to be
+
+70% 40 + 30
+
+by 100 what will be the recall the
+
+recall will be
+
+40 divided by uh recall is uh my bad I
+
+keep
+
+forgetting TP plus FN so recall is 40x
+
+50 which is8 or 80% right Precision
+
+Precision is 40 by 60 which is going to
+
+be 4X 6 2x
+
+3.66 the this is simple but what if I
+
+told you that you're building a q and a
+
+chatbot so in q and a chatbot you are
+
+basically feeding number of PDF
+
+documents and you are getting the
+
+answers in this case how would you do
+
+this you can still leverage confusion
+
+matrix it's just that you need
+
+to classify the answers
+
+imagine you are actually getting the
+
+answers and then you classify them
+
+as correct answers
+
+incorrect
+
+answers let's say missed answers so
+
+scenarios where you're asking a question
+
+your model is answering but it is not
+
+incorrect but it's rather
+
+um how would I how would I say it's like
+
+it's out of the context sometimes right
+
+so as a human being you can find the
+
+difference between Incorrect and missed
+
+answers and then let's say irrelevant
+
+responses now if you want to Simply make
+
+it as simple as this correct and
+
+incorrect that is fine as well right
+
+this will be even more easy so as a
+
+human being you have created this
+
+chatboard application with bunch of PDF
+
+documents and let's say you asking a
+
+question and you're getting an answer
+
+now for hundreds of these questions you
+
+have to manually create your confusion
+
+Matrix so out of the 100 questions that
+
+you are asking you keep adding the
+
+numbers oh this is correctly predicted
+
+So eventually this is 90 um and then
+
+let's say this is wrongly predicted
+
+as it's an incorrect answer so so so
+
+basically what you're doing is so let me
+
+write it down as predicted an act that's
+
+a correct correctly predicted or correct
+
+answers incorrect answers correct answer
+
+incorrect answers and then let's say 90
+
+correctly predicted actual and the
+
+predicted are
+
+correct actual is correct but it is
+
+predicting wrongly let's say in five of
+
+the
+
+cases actually it is incorrect but it is
+
+predicting correctly that means it is
+
+giving you a correct answer right you
+
+have been trained with a incorrect
+
+answer or maybe you have been trained
+
+with a an incorrect information let's
+
+say so for example in your document you
+
+have mentioned uh natural language
+
+processing is let's say some some random
+
+uh answer not natural language
+
+processing NLP is not natural language
+
+processing it is something else maybe it
+
+could be something randomly right but as
+
+an output you're getting it as natural
+
+language processing if you're asking
+
+what is NLP right so imagine you have
+
+your NLP document everything is about
+
+NLP tokenization starting from
+
+tokenization to everything but here you
+
+have mentioned NLP is nothing but
+
+something
+
+right I mean some some random I'm not
+
+coming up with a random answer let's say
+
+neighbor lost his pet just an example
+
+but when you're asking a question what
+
+is NLP it is actually answering you NLP
+
+is natural language processing that
+
+falls in this category right and give a
+
+wrong answer it is also predicting as
+
+wrong this is where comes here let's say
+
+something like this right and based on
+
+this you can actually evaluate your
+
+accuracy recall precision and so on I'm
+
+just vaguely giving the ideas on how you
+
+can leverage confusion metrics however
+
+in depth we will be covering in the
+
+upcoming
+
+videos hi let's try to talk about
+
+evaluation of data in the context of
+
+ragas so ragas framework is nothing but
+
+the framework for rag assessment right
+
+retrieval augmented generation
+
+assessment so this framework basically
+
+takes an Innovative approach to
+
+evaluation by eliminating the need for
+
+human created reference answers or
+
+ground tooth labels instead it uses
+
+large language model themselves to
+
+assess the quality of responses now
+
+let's take example imagine okay let's
+
+try to draw a simple rag based
+
+architecture imagine you have a
+
+documentation about let's say everything
+
+about Australia okay like geographical
+
+details the political details and
+
+everything so each and every information
+
+about Australia so maybe let's say
+
+assume that we are extracting
+
+information from Wikipedia about
+
+Australia so we have trained all of this
+
+data the data that is available on this
+
+page we are using that kind of PDF right
+
+and as we are using a ra rag
+
+architecture we will be following the
+
+same thing the chunking and then the
+
+vector data and then storing it in a
+
+vector space and imagine a user comes in
+
+and asks so let's say the question here
+
+is what is
+
+the capital of
+
+Australia so please pause this video try
+
+to answer this it's a very simple
+
+question the capital of of Australia is
+
+can right so the capital is canbera so
+
+we are asking this question now what
+
+happens is from this question basically
+
+you are converting it into Vector data
+
+and then you are going to the vector
+
+database and trying to get the most
+
+relevant information and passic it to
+
+the user right now
+
+imagine so so when the answer is let's
+
+say the answer here
+
+is the capital of of
+
+Australia is canbera can with two RS
+
+right
+
+can now this is the output
+
+right but you can also treat it as a
+
+ground truth what is ground truth ground
+
+truth means the actual
+
+truth right what is actually true so the
+
+capital of India is New Delhi right so
+
+that is ground truth let's say the
+
+output is the capital of India is Mumbai
+
+that is the output right that is not the
+
+ground truth if the output and the
+
+ground truth basically is matching then
+
+only you can tell that the large
+
+language model is performing well right
+
+so I hope you're getting my point right
+
+so that is basically the ground truth so
+
+in the context of ragas what's happening
+
+is you are defining a ground truth and
+
+then you getting this output now you are
+
+not checking them
+
+manually you are actually using the
+
+large language model to check whether
+
+the ground truth and the output are
+
+matching or not if it is matching then
+
+it's a true positive scenario that means
+
+truly
+
+predicted that is how ragas framework
+
+works so this reference free approach
+
+marked a significant shift from
+
+traditional evaluation methods that
+
+heavily relied on human annoted data
+
+sets now before ragas came into picture
+
+what we were doing is we were actually
+
+validating it manually right what is
+
+manual validation you potentially can go
+
+and search what is the Australia's
+
+capital Australia capital is oh
+
+Australia capital is canbera okay which
+
+is correct so my llm is giving good
+
+results good output so this is a good
+
+scenario similarly you ask 100 and
+
+hundreds of question and manually you
+
+check correct correct correct wrong
+
+correct correct something like this
+
+right but in ragus framework you are
+
+actually automating it because you are
+
+already having the ground truth and then
+
+you are getting the output you are using
+
+the llm to validate the ground truth
+
+with with respect to the
+
+output so practically we will go through
+
+it so nothing to worry about so you will
+
+have more understanding of it so how
+
+does the rag evaluation happens so the
+
+architecture diagram is something like
+
+this so let's
+
+say uh let me draw few blocks so let's
+
+say block one and then block two block
+
+three and block four okay now this is
+
+nothing but the
+
+contextual
+
+context or basically from the uh
+
+reference
+
+data okay in simple format the data
+
+extracted from the PDF document then
+
+comes user
+
+questions then comes ground truth
+
+answers and then you have the rag
+
+generated answers
+
+rag
+
+generated
+
+answers so ground truth and rag
+
+generated answers are kind of matched
+
+and this is the entire flow of rag
+
+evaluation
+
+and rag ass or r a g a s is basically
+
+following this architecture
+
+now Raga framework basically basically
+
+expects few thing okay so what does
+
+ragas ragas ragas framework expects so
+
+it expects four things the first is
+
+question what is question question is
+
+nothing but the user query that is the
+
+input to the rag pipeline right so
+
+question is nothing but the input to rag
+
+pipeline right so for an example I will
+
+write it down
+
+as what is the capital of
+
+Australia now the second thing
+
+is so the second thing is
+
+answer okay now imagine answer is
+
+nothing but the out put so imagine the
+
+answer is just imagine because blindly
+
+if you go and ask somebody out of 10
+
+people maybe four or five people will
+
+actually not be able to answer the
+
+capital of
+
+Australia many people many people say
+
+Sydney right imagine the rag output is
+
+the capital city of Australia is Sydney
+
+which is wrong
+
+right answer
+
+so the third is basically nothing but
+
+context what is
+
+context context is all the information
+
+from this Wikipedia page imagine you are
+
+extracting all this information let's
+
+say starting from
+
+here whatever it is right from here and
+
+then you are storing all the information
+
+in a PDF
+
+document so I'm I'm not going to show
+
+all these steps so let's say you are
+
+saving all this information in a Word
+
+document converting it into PDF and then
+
+you are using that PDF document as an
+
+input to your rag pipeline that is
+
+context right so context in simple terms
+
+is nothing but the retrieved information
+
+from the external knowledge
+
+[Music]
+
+external
+
+knowledge okay and the fourth
+
+information is nothing but the ground
+
+truth okay now the ground truth here is
+
+we have already mentioned the ground
+
+truth is the capital city of
+
+Australia is
+
+Cana okay now what happens here in this
+
+scenario in in this exact scenario where
+
+your question is this your rag pipeline
+
+is giving this output of course this is
+
+wrong because when you're comparing with
+
+the ground truth it is wrong right so
+
+you are penalizing the answer basically
+
+you're are penalizing this and how this
+
+exact flow happens the ragas flow I'll
+
+definitely explain uh do not worry about
+
+it
+
+so understood the key components of
+
+ragas framework now what I'm going to do
+
+is I'm going to take some example okay
+
+so let's
+
+say try to take an
+
+example let me try to write down and
+
+then I will quickly explain let's say I
+
+have a scenario one where my question is
+
+what is the capital of AUST Australia my
+
+answer is the capital of Australia
+
+is canbera and context is uh
+
+basically um information about Australia
+
+right that's my context right the
+
+Wikipedia page and then we have the
+
+ground truth so ground truth is the
+
+capital of a Australia is
+
+Cana now many of you might be
+
+thinking fine
+
+the
+
+question okay many of you might be
+
+thinking this that the question is fine
+
+this is something you're asking to the
+
+large language model answer you are
+
+getting it context is also understood
+
+ground truth who is the owner of this
+
+ground truth who is writing it
+
+so when you are working with rag as
+
+framework by default there is an
+
+expectation that for a certain set of
+
+questions you must already have the
+
+ground truth and who creates this ground
+
+truth People Like Us who have the domain
+
+knowledge who have the expertise they
+
+are the ones who to prepare this ground
+
+ground Truth for certain
+
+questions and then when you are creating
+
+a rag pipeline imagine you created a rag
+
+pipeline project using open
+
+Ai and then you created another using
+
+llama Lama 3 and you created another
+
+using
+
+mixl now how do you validate which one
+
+is good imagine you have 100 questions
+
+with 100 ground truths
+
+so what will we
+
+do forget about ragas forget about
+
+ragas we are we talking about ragas but
+
+just forget about ragas think from a
+
+Layman's point of view you have a set of
+
+questions you have a set of answers now
+
+open ey is giving you 100
+
+answers llama 3 is giving you 100
+
+answers and mixtur is giving you 100
+
+answers a traditional way of validating
+
+how good your large language model is is
+
+to check these answers manually with the
+
+ground truth now let's say open air has
+
+given you 95 correct Lama 3 has given
+
+you 96 correct and mistal has given you
+
+let's say 92 correct so of course Lama 3
+
+is
+
+better right now what ragas is doing in
+
+simple terms okay technically coding
+
+wise we will talk about it later but
+
+technically this checking process is not
+
+manual now we gave an example of a
+
+manual checking right when it is not
+
+manual you are kind of taking these
+
+answers and checking with the ground
+
+truth and getting a matrix whether it is
+
+a correctly predicted or not you are
+
+directly using again the rag framework
+
+to kind of validate whether it is
+
+correct or not so in simple terms let me
+
+explain you
+
+so in simple terms my ground truth is
+
+the capital of Australia is
+
+canbera answer by Lama 3 is the
+
+capital of Australia is Sydney for
+
+example what is
+
+the is it a correct prediction or a on
+
+prediction this is what you are
+
+basically doing internally you directly
+
+asking the large language model to tell
+
+whether it is correct or not you are not
+
+manually
+
+involving so imagine you have thousands
+
+and thousands of questions with ground
+
+truth you're basically passing this list
+
+to your own rag Pipeline and you're
+
+getting whether it is correctly
+
+predicted or not so imagine a tabular
+
+structure you have a
+
+question you have a ground truth you
+
+have your model generated answer and
+
+whether you are correctly predicting or
+
+wrongly predicting correct wrong correct
+
+wrong and once you have this
+
+then you can actually build your
+
+confusion Matrix right predicted act uh
+
+predicted uh correctly predicted or not
+
+actual yes or not and then you you can
+
+actually build your confusion metrix you
+
+can use recall Precision accuracy metrix
+
+and then you can evaluate which rag
+
+model or rag uh which large language
+
+model is best so I gave you a very brief
+
+idea about ragas especially how the
+
+evaluation of data works in the next
+
+video we shall be talking more about the
+
+evaluation
+
+Matrix hi let's try to talk about the
+
+evaluation metrics that ragas framework
+
+uses so ragas basically provides you
+
+with few metrics to evaluate a rag
+
+pipeline um it could be comp component
+
+wise and it could be end to end as well
+
+okay so especially the retrieval part is
+
+more concerned about metrics like
+
+context relevancy and context recall so
+
+let me write it down
+
+context
+
+relevancy and
+
+context recall okay bit uh not visible
+
+properly but I'll try to uh do a proper
+
+diagram which will explain you better
+
+and the generation part the generative
+
+part basically is concerned about two
+
+metrics which is the
+
+faithfulness how faithful the answer is
+
+and uh answer relevancy very very
+
+important how relevant your answer
+
+is okay we'll try to we'll try to get
+
+into these things um let me try to draw
+
+U diagram explaining about the various
+
+metrics U that ragas framework uses
+
+so remember in the previous video we
+
+talked about four major components right
+
+and what are the four four major
+
+components let me try to draw it here
+
+so what what are the four major
+
+components ground
+
+truth the
+
+query the
+
+response and the
+
+context so let's try to draw a few uh
+
+lines here so from the context to here
+
+and from the response to here let me
+
+draw some beautiful
+
+lines and then from here to here and
+
+then from here to here okay and from
+
+here to here as well so let me try to
+
+write it down okay so that it's visible
+
+properly so so here we have answer
+
+correctness
+
+okay it should be visible answer
+
+correctness and answer similarity okay
+
+these are the two different metrics I
+
+will explain each and everything uh in
+
+details with examples and then we have
+
+here context uh
+
+precision
+
+and here from the context to response is
+
+the faithfulness faith
+
+[Music]
+
+fullness and
+
+then this this line from Context to GT
+
+is basically the context
+
+recall okay and lastly from response to
+
+the query is basically nothing but the
+
+answer relevancy okay let's try to let's
+
+try to understand each and every um
+
+parameters here so what we have here is
+
+we have four components right the ground
+
+truth the outcome as in the response the
+
+query and the context and then we have
+
+all of these uh parameters all of these
+
+uh metrics right
+
+now let's try to understand each and
+
+every metric here
+
+so okay H so
+
+um okay let's try to talk about answer
+
+correctness this one what is answer
+
+correctness
+
+now the definition is very simple this
+
+metric evaluates whether the generated
+
+answer is factually correct or not right
+
+whether this is
+
+factually
+
+correct or not as simple as that right
+
+now let's say the question is what is
+
+the capital of Australia the answer is
+
+the capital of Australia is Sydney the
+
+ground truth is the capital of Australia
+
+is canbera so evaluation will be the
+
+answer is incorrect right it is
+
+factually not correct right and the
+
+answer correctness score would be low so
+
+remember all of these metrics they
+
+usually range between 0 to one okay and
+
+one being the highest low uh zero being
+
+the lowest so if the score is towards
+
+one this is good if the score is towards
+
+zero which is bad so in this scenario
+
+when I'm talking about uh especially
+
+this part let me just copy paste from
+
+the above
+
+uh
+
+okay let me remove it okay in this
+
+scenario the question was the capital of
+
+Australia what is the capital of
+
+Australia the answer was the capital of
+
+Australia is canbera sorry let me write
+
+it down the capital of Australia was
+
+Sydney
+
+s right that is what the llm answered
+
+the context was information about uh
+
+information about Australia the ground
+
+truth is the capital of Australia is
+
+canbera so what is the final output it
+
+is not factually correct right so the
+
+answer correctness is basically going to
+
+be very very closer to zero would be
+
+very low so I'll write it down
+
+here answer correctness
+
+will be low or closer to zero
+
+correct now talking about um answer
+
+similarity what is answer similarity so
+
+again this metric measures the semantic
+
+similarity between the generated answer
+
+and the ground truth okay s semantic
+
+similarity so again in the same
+
+scenario uh let's say the capital of
+
+Australia is Sydney and the ground truth
+
+is canbar in this case what will be the
+
+similarity score the similarity score
+
+will be again low right if the ground
+
+truth was canbera and the generated
+
+answer is also canbera then the
+
+similarity score would be very very high
+
+indicating that the generated answer
+
+conveys the same information as the
+
+ground truth so in this case the answer
+
+similarity will be very low again for
+
+first case also will be very low and
+
+this one also will be very low very
+
+closer to
+
+zero what is context
+
+recall context recall the term that we
+
+have used here so context recall is so
+
+sorry answer correctness and answer
+
+similarities understood these are very
+
+very easy and basic things to understand
+
+what is context recall let me try to uh
+
+write it down context
+
+text recall what is this now this metric
+
+basically assess how well the retrieved
+
+context aligns with the information
+
+needed to answer the question
+
+correctly okay I'll repeat this metric
+
+assesses how well the retrieve context
+
+aligns with the information needed to
+
+answer the question correctly L now for
+
+example your data is trained about
+
+Australia and then you ask something
+
+about mathematics right so that is
+
+irrelevant right so if you if you say
+
+the exam let's say
+
+um so let's say we are asking uh what is
+
+the capital of Australia canbera is the
+
+capital of Australia that is the
+
+retrieval context the retrieved context
+
+now evaluation will be if the context
+
+directly supports the answer the context
+
+recall would be high if the context is
+
+irrelevant or misleading the score would
+
+be low as simple as that okay what is
+
+answer relevancy answer relevancy is how
+
+relevant the generated answer is to the
+
+questions
+
+asked okay so if you are asking a
+
+question about the capital of Australia
+
+and the answer is completely off let's
+
+say the answer is something something
+
+else sjin
+
+tandul has scored more than 100
+
+centuries something like that which is
+
+not relevant right so the answer
+
+relevance will be very very low that
+
+means with respect to the query what is
+
+the response if the response is intact
+
+semantic uh meaning is understood
+
+semantic context is understood and
+
+you're giving an answer or giving the
+
+response then the answer relevancy will
+
+be higher what is
+
+faithfulness this basically measures
+
+whether the generated answer accurately
+
+affects um I would say accurate
+
+reflects the information contained in
+
+the retrieved context without
+
+introducing
+
+inaccuracies okay now let's say the
+
+retrieved context here
+
+is information about Australia let's say
+
+canbera is the capital you have got the
+
+retrieved context that canbera is
+
+capital right generated answer also says
+
+canbera is the
+
+capital so answer is also canbera
+
+context is also canbera so in this
+
+case the answer is faithful to the
+
+context resulting in a high faithfulness
+
+score if the answer misrepresents the
+
+context the score would Bel low this
+
+metric ensure that the system does not
+
+fabricate information and lastly talking
+
+about context Precision which is nothing
+
+but query or the question with respect
+
+to the
+
+context so this basically evaluates the
+
+Precision of the retrieved context in
+
+relations to the question assessing
+
+whether the context contains relevant
+
+information that contributes to
+
+answering the question or not so again
+
+remaining the same the question is
+
+capital of Australia let's say retrieved
+
+context is yeah canbera is the capital
+
+of Australia it is located in uh blah
+
+blah blah territory um the neighborhoods
+
+are blah blah blah so evaluation will be
+
+let's say since the
+
+context directly answers the question
+
+and provides additional relevant
+
+information the context Precision will
+
+be very very
+
+high okay so these are all different
+
+metrics now taking some examples if you
+
+want to calculate the score of these
+
+that is also possible so let's try to
+
+take an example however
+
+um I initially did not plan to do this
+
+so so I'm trying to come up with five
+
+different
+
+statements um let's say we will take
+
+help of uh pop.com to kind of uh
+
+generate okay um let's say generate five
+
+questions and ground truths about
+
+Australia okay cool what is the capital
+
+city of Australia let's say that's my
+
+first question what is the capital city
+
+of Australia let's say the ground truth
+
+is
+
+Cana uh the second question is let's
+
+say um which animal okay before animal
+
+let's say what is the largest city if
+
+I'm not
+
+wrong it should be Sydney but I'm not
+
+pretty sure I think it's Sydney Sydney
+
+and then let's say third question is um
+
+official language of
+
+Australia uh
+
+English um national animal of
+
+Australia it's
+
+kangaro and then last question could be
+
+um official language is done okay uh
+
+what is the
+
+famous okay let's say we'll write it it
+
+down here okay let's let's try to create
+
+my own question
+
+um when did
+
+Australia become a federation I think
+
+yeah 1901 uh
+
+Australia's
+
+Federation date so it's 1901 okay these
+
+are all the GTS okay that means the
+
+ground
+
+truth GT GT GT
+
+GT GT right these are my questions these
+
+are my ground truth now let's say I'm
+
+trying to create another table with all
+
+the generated answers okay let's say the
+
+first answer is
+
+Sydney the second answer is let's
+
+say Sydney to syy and the third answer
+
+is let's say English the fourth answer
+
+is let's say um I'm just giving a random
+
+answer let's say emo and the fourth
+
+answer is let's say 1901 right these are
+
+all my generated
+
+answers
+
+okay so these are my generated answers
+
+these are
+
+my answers now this is correct no this
+
+is not correct this is correct yes this
+
+is correct yes this is not correct and
+
+this is correct right so basically three
+
+out of five and answers are correct
+
+imagine now we want to do some metrics
+
+calculation so let's say I'm talking
+
+about um let's
+
+say answer correctness so what will be
+
+the answer correctness here let me write
+
+it down answer
+
+correctness 0 1 z uh sorry my
+
+bad 1 0 and 1 right what will be answer
+
+similarity
+
+so I'm calling it out I'm not writing it
+
+properly so that I think you can hear my
+
+voice and you can note it down in your
+
+notebooks right this is answer
+
+correctness this is answer similarity so
+
+answer similarity will be 0o 1 1 0 and
+
+one what will be context
+
+recall context recall will be again like
+
+0 1 1 0 1 right so you can you can see
+
+right so similarly all these metrics are
+
+going to be very very similar right but
+
+but internally when you are calling
+
+ragas framework you see all of these are
+
+same either you use this or this or this
+
+they're eventually same in this
+
+particular scenario and if you go ahead
+
+and calculate the context precision as
+
+well it's going to be same it's going to
+
+be not precise precise precise not
+
+precise and precise so ragas basically
+
+internally uses all of these metrics to
+
+kind of valid it so um practically what
+
+exactly happens in ragas framework we
+
+will be showing you uh there will be a
+
+code walk through in the next video so
+
+that's that's all about in case you have
+
+any sorts of Doubt or any sorts of
+
+questions in mind uh just raise a
+
+comment so guys now you have learned
+
+each and every
+
+before implementing ragas so you have
+
+learned about confu confusion metrics
+
+different types of metrics available
+
+provided by ragas in terms of retrieval
+
+generation and end to endend so now in
+
+this part what I will do I will
+
+Implement Raa I will Implement ragas on
+
+top of rag r r based chatboard where I
+
+will just create a chatboard using a
+
+simple rag architecture and on top of
+
+that I will I will and on top of that I
+
+will Implement ragas where we will
+
+evaluate our responses from the chatbot
+
+and see what is the different different
+
+score that I achieved during this for
+
+evaluation so guys we will do this thing
+
+in collab and let me this is the guys
+
+collab notebook link which I have
+
+provided so you can go through this and
+
+you can visit the collab notebook so for
+
+you I will just code each and everything
+
+line by line to Showcase you so for that
+
+guys this is my Google collab guys which
+
+I have from this I have just set up my
+
+uh open environment variable basically I
+
+using open AP key so I have just done
+
+open a environment variable
+
+setup so
+
+guys first of all let me import import
+
+some of the libraries which I
+
+need so let me install before importing
+
+so first of all I need to install pip
+
+install hyph Q hyphen Q is that is for
+
+qu I don't want that so to
+
+basically to basically just show each
+
+and everything it is
+
+downloading L chain apart from
+
+there let me install ragas that
+
+is the main thing for which we
+
+are apart from this what I need to
+
+install I need to install
+
+F
+
+CPU and I need to
+
+install Lang
+
+chain open
+
+and at last what I need I need
+
+pick
+
+to
+
+cam so I need to install all these five
+
+things
+
+guys so in meantime guys it is
+
+installing let me show what is the data
+
+on which I am creating a rag chatbot
+
+guys so the data is guys State of Union
+
+txt file this is basically a US White
+
+House Press release where it talks about
+
+various kind of
+
+basically uh conversation that uh occur
+
+in White House so this is basically past
+
+President Joe
+
+Biden conversation guys so on top of
+
+this we will create
+
+our rack chatboard so we
+
+will provide you each and everything
+
+guys this collab notebook link and this
+
+data set as well so let's focus on the
+
+concept guys building the rag
+
+application and implementing ragas on
+
+top of
+
+that
+
+tick oh spelling mistake guys tick
+
+token so guys first of
+
+all we have to follow basic I have I'm
+
+building basic rag based chatboard so we
+
+have to follow the rag architecture so
+
+for that what we need we need our data
+
+we need to split that our data into
+
+chunks and we have to say we have to
+
+convert that data into embeddings and
+
+store that into Vector database so from
+
+there user query and from the
+
+context from here for just using a rag
+
+basically what we will do uh user query
+
+and most relevant context from the
+
+vector database will pass to my llm and
+
+on top of that llm will respond me with
+
+answer guys so first of all what I will
+
+do let me import
+
+from lanin
+
+do
+
+docu
+
+me moders
+
+import what I need to UT in import
+
+text
+
+loader apart from this I need to
+
+from lanen do text
+
+splitter I need to import
+
+recursive de cursive character
+
+text splitter and from Lang chain
+
+underscore open
+
+a
+
+import
+
+check
+
+open AI so I need to install these three
+
+thing guys so first of all what we need
+
+we need to load the data so for that
+
+loader loader is equals to text loader
+
+as my data is in the txt format and I
+
+have to give the path for this guys so
+
+the I have to just copy the file
+
+path so I will just pass the path of the
+
+text file and my
+
+document is equals to loader
+
+load so I have loaded my data so the
+
+next step is to split that data into
+
+chunks
+
+chuning the
+
+data so text splitter is equals to
+
+recursive character text splitter I have
+
+to pass what chunk size
+
+so my chunk size will be 500 and my
+
+chunk
+
+overlap equals to
+
+50 so after this my chunks will
+
+be chunks will be equals to text SP
+
+dot
+
+split split underscore
+
+document documents and I have to pass my
+
+document so if I see chunks
+
+guys and see guys we
+
+have splitted our data into small small
+
+chunks after this what guys what we need
+
+to
+
+do so let me just remove this yeah so
+
+after this I have to basically convert
+
+this data into embeddings and load that
+
+embeddings to my Vector database so for
+
+that work from Lang
+
+chain
+
+_
+
+import open a
+
+embedding open
+
+AI embeddings and from here my
+
+embedding embeddings will
+
+be uh open a embedding sty so these this
+
+is my embedding guys and now
+
+from Lang chain
+
+do community
+
+Community
+
+dot Vector
+
+stor I need to
+
+import f a
+
+SS f a
+
+SS I need to import F from
+
+langore Community guys I need to import
+
+F and my Vector
+
+database Vector DB is equals to
+
+F
+
+dot promore
+
+documents documents and I need to pass
+
+chunks and my
+
+embeddings so this will take time so
+
+after this I have to give the retriever
+
+what is my
+
+retriever is equals to Vector DB do s
+
+underscore r i e v e r retriever so this
+
+is my retriever
+
+guys now I have to Define my
+
+llm defining LM so here I'm using guys
+
+here I'm
+
+using open model you can use any free
+
+large language model that is available
+
+from you either from Gro amaama J any
+
+free llm you can use so for better
+
+result I'm using
+
+C chat open
+
+and temperature will
+
+be
+
+0.6 so this is my
+
+llm now I have to Define my
+
+prompt Define the
+
+define template so
+
+my template will
+
+be so my template will be
+
+this so this is my template you are an
+
+assistant for question answering task
+
+use the following piece of retrieve
+
+context to answer the question if you
+
+don't know the answer just say you don't
+
+know use two sentences maximum and keep
+
+answer concise question and here I will
+
+pass user question and context that is
+
+from that is retriever from Vector
+
+DB after
+
+this uh I will create a chain using LCL
+
+Lang chain expression language so for
+
+that
+
+from L chain dot prompts
+
+prompts I need to
+
+import
+
+chat prom
+
+template
+
+and from lch
+
+do
+
+schema
+
+Dot runable
+
+I need to
+
+import
+
+runable pass
+
+through from lanin
+
+do Kima dot output
+
+pars output uncore
+
+parer I need to
+
+import St Str
+
+output
+
+parel so I need to import these things
+
+so let me first Define my prompt so my
+
+prompt will
+
+be chat prom
+
+template I need to
+
+pass DOT
+
+from uh that is chore template
+
+and here I need to pass my
+
+template so this is my prompt and
+
+now I will
+
+setting setting
+
+up
+
+rag
+
+pipeline so for that my
+
+chain chain
+
+is uh like this I have to create and
+
+here what I need I need to create a
+
+dictionary here I will pass
+
+context that
+
+is Retriever and here I have to pass
+
+C and that is runable pass
+
+through and now what I need to pass I
+
+need to pass
+
+prompt I need to pass
+
+llm I need to pass St Str output
+
+parel so this is my LCL chain which I
+
+have
+
+created let me run this yeah I have
+
+successfully run this chain so let me
+
+just first check whether let me just
+
+invoke this chain do
+
+invoke so I will ask just question from
+
+the document only what did President say
+
+about justic
+
+Breer so let me hit
+
+enter So This Is The Answer guys so the
+
+thing which I have done presently is
+
+creating a rag implementing rag
+
+architecture on my txt file so here I
+
+have not basically use any session or
+
+memory concept you can use from your end
+
+so my focus is on to how you can
+
+Implement ragas on top of this so that's
+
+that's why I have just created a basic
+
+rag architecture so now what thing what
+
+thing I will do I will Implement a rag
+
+architecture on this ragas I will
+
+Implement ragas on top of
+
+this so first of all let me Define some
+
+questions so give I will give some list
+
+of questions
+
+so let me just give the list of
+
+questions uh that I will ask so these
+
+are three
+
+questions which I asked from basically
+
+my
+
+I will ask from my llm these three
+
+questions so and after this I have to
+
+pass ground truth you know ground truth
+
+the human given answer that is human
+
+given answer that is human anotated
+
+answer so my ground
+
+truth my ground truth will
+
+be this so let me just give you the
+
+ground truth
+
+also so the ground truth basically
+
+represent human annotated
+
+answer which
+
+human basically me human give done this
+
+responded to this and what I need I need
+
+answer which will be given by llm so I
+
+have to create an empty list and my
+
+context that is also from LL basically
+
+based on the question I will get so let
+
+me hit enter now what I will do I will
+
+just do
+
+inference
+
+for quy in
+
+questions so let me give this as
+
+questions and this is ground truth
+
+so for query in
+
+questions that is I am uh I am applying
+
+for loop on this
+
+questions and here
+
+answer dot basically I'm appending
+
+answer uh
+
+chain do
+
+invoke and here I will pass my
+
+query after this I have
+
+to basically get context also so context
+
+do append here I need to
+
+pass doc
+
+dot
+
+pageor
+
+content for
+
+docs basically my docs. page content for
+
+docs in
+
+retriever dodore
+
+r e l e v e v a n t relevant
+
+documents and here I will pass my
+
+query so this thing has completed let me
+
+just check
+
+by so this is the context and which
+
+which basically most relevant context
+
+based on the user query that is by
+
+cosine similarity we get this thing and
+
+let me check answers also what answers
+
+whether the answer is appended to this
+
+list or
+
+not so this is the answers or the
+
+response from my llm and this is human
+
+annotated
+
+responses now we have all these four
+
+things so in the earlier phas also I
+
+told that ragas expect these four or
+
+three kind of information after that
+
+only we can Implement ragas so
+
+now what I will do let me just first
+
+remove this
+
+so to D so I have to
+
+basically convert this into a data set
+
+format basically I have to manage this I
+
+cannot directly pass this to Raga so I
+
+have to handle this so for that
+
+what I need this is my data I creating
+
+the dictionary for all these four
+
+my uh for my question uh question answer
+
+Conta and ground truth so
+
+my question will
+
+be
+
+questions and here my ground truth
+
+TR
+
+is ground truth and here my
+
+answer is answers that is answer
+
+only and here my
+
+context context
+
+is context so I have created a
+
+dictionary for all these four
+
+things so let me just hit enter now what
+
+I will do I will just pass this thing to
+
+data set so from data
+
+set from data set
+
+import
+
+data
+
+set and my data
+
+set is equals to
+
+data
+
+set
+
+dot so guys I think this D's
+
+Capital
+
+dot
+
+promore dict basically I have converted
+
+all these four into D so I need to pass
+
+my data
+
+and if I see data
+
+set so guys see this is I have converted
+
+into data set format type guys my all
+
+these four things uh this is my question
+
+ground truth answer and context and
+
+number of rows that is three basically
+
+the length of the list basically I have
+
+asked three questions
+
+only now what I need to
+
+do so from I need to import from
+
+ragas now guys focus on this this thing
+
+now I'm implementing ragas uh matrices
+
+on top of my rag architecture so from
+
+ragas I need to imput I need to inut
+
+evaluate and
+
+from ragas do
+
+matrices I need to
+
+import what I need to import all these
+
+four matrices which I'm using in this
+
+example
+
+so I need faithfulness answer relevancy
+
+context recall and context Precision so
+
+these all four matrices I required in
+
+this
+
+example so it
+
+is a Al yeah it is evaluate so I have
+
+given the wrong spelling so I have
+
+imported all this thing so now my
+
+result result is equal
+
+to evaluate and here I need to pass my
+
+data set that
+
+is data set equals to data set and here
+
+apart from this I have to pass my Matrix
+
+so my matrices is equals to I need to
+
+pass the list of my matrices so the my
+
+list of the matrices is this which I
+
+have
+
+imported so these are the all the
+
+matrices which I required so context
+
+Precision F context
+
+recall faithfulness and answer
+
+relevancy and here after that what I
+
+need to pass I need to pass my llm is
+
+equals to
+
+llm LM equals to
+
+llm and my embedding
+
+embeddings is equals to embeddings and I
+
+have to
+
+enter so basically it is on the back end
+
+it is performing all the evaluation and
+
+each and everything and it will give me
+
+the result so if I call
+
+result if I just call
+
+result see guys it is giv me the
+
+evaluation score that is the
+
+faithfulness is one answer relevancy is
+
+one basically how my answer the
+
+responses from llm are accurate or not
+
+so it is giving me that thing now we can
+
+evaluate our rag architecture we are not
+
+just blindly uh considering the
+
+responses which are given by llm no now
+
+I will also what I will do I will
+
+convert this into a data basically
+
+Panda's data frame so
+
+result dot two underscore
+
+pandas and if I show you the
+
+DF see guys see my user input my
+
+relevant context response and references
+
+and these all are my score with respect
+
+to this user input this is the context
+
+from our Vector database this is the
+
+response response from my lln that is
+
+answered and this reference is a ground
+
+truth so on based of this the Precision
+
+is one recall is one so my model is
+
+performing performing
+
+ex best basically good my model
+
+performance is good guys so I will
+
+accept this model if suppose the model
+
+basically the context Precision score
+
+recall the answer is like 0.4 0.5 so I
+
+need to change the approach of retrieval
+
+so I either I have to use some different
+
+llm or some different uh basically Al uh
+
+context basically which is fetching from
+
+Vector database some different technique
+
+I have to use so basically we are
+
+evaluating our rag
+
+architecture so this is guys this is a
+
+in this example I have shown you how you
+
+can Implement ragas on top of the rag
+
+architecture so
+
+[Music]
+
+he
